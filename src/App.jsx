@@ -39,14 +39,14 @@ function AppShell({ children }) {
       <div className="max-w-7xl mx-auto p-6">
         <header className="flex items-center justify-between mb-6">
           <h1 className="text-2xl font-bold">APBD Draft Management (Village)</h1>
-          <nav className="space-x-3 text-sm">
+        </header>
+        <aside className="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
             <Link to="/" className="px-3 py-1 rounded hover:bg-slate-100">Dashboard</Link>
             <Link to="/create" className="px-3 py-1 rounded hover:bg-slate-100">Create Draft</Link>
             <Link to="/approval" className="px-3 py-1 rounded hover:bg-slate-100">Approval</Link>
             <Link to="/revisions" className="px-3 py-1 rounded hover:bg-slate-100">Revisions</Link>
             <Link to="/reports" className="px-3 py-1 rounded hover:bg-slate-100">Reports</Link>
-          </nav>
-        </header>
+          </aside>
         <main>{children}</main>
       </div>
     </div>
