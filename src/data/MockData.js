@@ -20,3 +20,10 @@ export const initialDrafts = [
     ]
   }
 ];
+
+export const incomeSources = [
+  { id: 1, name: "Gaji Bulanan" },
+  { id: 2, name: "Freelance" },
+  { id: 3, name: "Investasi" },
+  { id: 4, name: "Lain-lain" },
+];

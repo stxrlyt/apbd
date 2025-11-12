@@ -8,6 +8,7 @@ import AppShell from "./components/AppShell";
 // Pages
 import Dashboard from "./pages/Dashboard";
 import CreateDraft from "./pages/CreateDraft";
+import Income from "./pages/Income";
 import Approval from "./pages/Approval";
 import Revisions from "./pages/Revisions";
 import Reports from "./pages/Reports";
@@ -23,6 +24,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/create" element={<CreateDraft />} />
+            <Route path="/income" element={<Income />} />
             <Route path="/approval" element={<Approval />} />
             <Route path="/revisions" element={<Revisions />} />
             <Route path="/reports" element={<Reports />} />
