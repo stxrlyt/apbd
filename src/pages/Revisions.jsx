@@ -20,7 +20,7 @@ export default function Revisions() {
               </div>
               <div className="flex gap-2">
                 <Link to={`/draft/${d.id}`} className="px-3 py-1 border rounded">Open</Link>
-                <VersionAdder draft={d} onAddVersion={onAddVersion} />
+                <VersionAdder draft={d} onAddVersion={addVersion} />
               </div>
             </div>
 
