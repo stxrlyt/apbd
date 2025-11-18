@@ -6,7 +6,17 @@ import VersionAdder from "../components/VersionAdder";
 
 // Revisions Page
 export default function Revisions() {
-  const { drafts, addVersion } = useDrafts();
+  const { drafts, addVersion, loading } = useDrafts();
+  
+  if (loading) {
+    return (
+      <div className="bg-white p-6 rounded shadow-sm">
+        <h2 className="text-xl font-semibold mb-4">Revisions & Version Control</h2>
+        <p className="text-slate-500">Loading...</p>
+      </div>
+    );
+  }
+  
   return (
     <div className="bg-white p-6 rounded shadow-sm">
       <h2 className="text-xl font-semibold mb-4">Revisions & Version Control</h2>

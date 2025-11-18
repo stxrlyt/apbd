@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useParams } from "react-router-dom";
 import { useDrafts } from "../contexts/DraftsContext";
+import { uid, now } from "../utils/helpers";
 
 // Create Draft Page
 export default function CreateDraft() {
@@ -20,25 +21,29 @@ export default function CreateDraft() {
     setItems(prev => prev.filter((_, i) => i !== index));
   }
 
-  function submit() {
-    const newDraft = {
-      id: uid(),
-      title: title || "Untitled Draft",
-      createdBy: "User Lokal",
-      createdAt: now(),
-      status: "Draft",
-      versions: [
-        {
-          vid: uid(),
-          summary: "Initial",
-          createdAt: now(),
-          createdBy: "User Lokal",
-          items
-        }
-      ]
-    };
-    createDraft(newDraft);
-    navigate("/");
+  async function submit() {
+    try {
+      const newDraft = {
+        title: title || "Untitled Draft",
+        createdBy: "User Lokal",
+        createdAt: now(),
+        status: "Draft",
+        versions: [
+          {
+            vid: uid(),
+            summary: "Initial",
+            createdAt: now(),
+            createdBy: "User Lokal",
+            items
+          }
+        ]
+      };
+      await createDraft(newDraft);
+      navigate("/");
+    } catch (error) {
+      console.error("Error saving draft:", error);
+      alert("Failed to save draft. Please try again.");
+    }
   }
 
   const total = items.reduce((s, it) => s + (Number(it.qty) * Number(it.unitPrice)), 0);

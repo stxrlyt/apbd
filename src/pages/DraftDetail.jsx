@@ -4,11 +4,15 @@ import { useDrafts } from "../contexts/DraftsContext";
 
 // Draft Detail Page (view, compare versions)
 export default function DraftDetail() {
-  const { drafts, onAddVersion } = useDrafts();
+  const { drafts, addVersion, loading } = useDrafts();
   const { id } = useParams();
   const draft = drafts.find(d => d.id === id);
   const [leftV, setLeftV] = useState(null);
   const [rightV, setRightV] = useState(null);
+
+  if (loading) {
+    return <div className="bg-white p-6 rounded">Loading...</div>;
+  }
 
   if (!draft) return <div className="bg-white p-6 rounded">Draft not found.</div>;
 

@@ -1,32 +1,83 @@
-import React, { createContext, useContext, useState } from "react";
-import { initialDrafts } from "../data/mockData";
-import { uid, now } from "../utils/helpers";
+import React, { createContext, useContext, useState, useEffect } from "react";
+import { createDraft as createDraftService, updateDraft, subscribeToDrafts } from "../firebase/draftsService";
+import { now } from "../utils/helpers";
 
 // 1. Create the context
 const DraftsContext = createContext(null);
 
 // 2. Create the Provider component
 export function DraftsProvider({ children }) {
-  const [drafts, setDrafts] = useState(initialDrafts);
+  const [drafts, setDrafts] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  function createDraft(newDraft) {
-    setDrafts(prev => [newDraft, ...prev]);
+  // Subscribe to real-time updates from Firebase
+  useEffect(() => {
+    setLoading(true);
+    const unsubscribe = subscribeToDrafts((draftsData) => {
+      setDrafts(draftsData);
+      setLoading(false);
+    });
+
+    // Cleanup subscription on unmount
+    return () => unsubscribe();
+  }, []);
+
+  async function createDraft(newDraft) {
+    try {
+      await createDraftService(newDraft);
+      // The subscription will automatically update the drafts state
+    } catch (error) {
+      console.error("Error creating draft:", error);
+      throw error;
+    }
   }
 
-  function approveDraft(id) {
-    setDrafts(prev => prev.map(d => d.id === id ? ({ ...d, status: "Approved", approvedAt: now() }) : d));
+  async function approveDraft(id) {
+    try {
+      const draft = drafts.find(d => d.id === id);
+      if (!draft) return;
+      
+      await updateDraft(id, {
+        status: "Approved",
+        approvedAt: now()
+      });
+      // The subscription will automatically update the drafts state
+    } catch (error) {
+      console.error("Error approving draft:", error);
+      throw error;
+    }
   }
 
-  function requestChanges(id) {
-    setDrafts(prev => prev.map(d => d.id === id ? ({ ...d, status: "Needs Changes" }) : d));
+  async function requestChanges(id) {
+    try {
+      await updateDraft(id, {
+        status: "Needs Changes"
+      });
+      // The subscription will automatically update the drafts state
+    } catch (error) {
+      console.error("Error requesting changes:", error);
+      throw error;
+    }
   }
 
-  function addVersion(draftId, version) {
-    setDrafts(prev => prev.map(d => d.id === draftId ? ({ ...d, versions: [...d.versions, version] }) : d));
+  async function addVersion(draftId, version) {
+    try {
+      const draft = drafts.find(d => d.id === draftId);
+      if (!draft) return;
+      
+      await updateDraft(draftId, {
+        versions: [...draft.versions, version]
+      });
+      // The subscription will automatically update the drafts state
+    } catch (error) {
+      console.error("Error adding version:", error);
+      throw error;
+    }
   }
 
   const value = {
     drafts,
+    loading,
     createDraft,
     approveDraft,
     requestChanges,

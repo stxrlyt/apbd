@@ -4,11 +4,22 @@ import { useDrafts } from "../contexts/DraftsContext";
 import StatCard from "../components/StatCard";
 
 function Dashboard() {
-  const { drafts } = useDrafts();
+  const { drafts, loading } = useDrafts();
 
   const totalDrafts = drafts.length;
   const pending = drafts.filter(d => d.status === "Pending").length;
   const approved = drafts.filter(d => d.status === "Approved").length;
+
+  if (loading) {
+    return (
+      <div className="space-y-6">
+        <h1 className="text-3xl font-bold text-slate-900">Dashboard</h1>
+        <div className="bg-white p-6 rounded-lg shadow-sm">
+          <p className="text-slate-500">Loading drafts...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">
