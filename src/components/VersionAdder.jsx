@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { uid, now } from "../utils/helpers"; // Import helpers
+import { uid, now } from "../utils/helpers";
+import { useAuth } from "../contexts/AuthContext";
 
 // Notice the props are exactly what the Revisions page passed to it
 export default function VersionAdder({ draft, onAddVersion }) {
   const [open, setOpen] = useState(false);
   const [summary, setSummary] = useState("");
+  const { userData } = useAuth();
 
   function addVersion() {
     const latest = draft.versions[draft.versions.length - 1];
@@ -12,7 +14,7 @@ export default function VersionAdder({ draft, onAddVersion }) {
       vid: uid(),
       summary: summary || "Perubahan",
       createdAt: now(),
-      createdBy: "User Lokal",
+      createdBy: userData?.displayName || userData?.email || "Unknown User",
       // shallow copy of items (in real app user edits them)
       items: latest.items.map(it => ({ ...it }))
     };

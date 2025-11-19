@@ -1,10 +1,13 @@
-import React, { useState, useMemo } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useParams } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import { useDrafts } from "../contexts/DraftsContext";
+import { useAuth } from "../contexts/AuthContext";
+import { canCreateDraft, canApproveDraft } from "../utils/permissions";
 import StatCard from "../components/StatCard";
 
 function Dashboard() {
   const { drafts, loading } = useDrafts();
+  const { role } = useAuth();
 
   const totalDrafts = drafts.length;
   const pending = drafts.filter(d => d.status === "Pending").length;
@@ -38,23 +41,35 @@ function Dashboard() {
 
           <h3 className="mt-6 font-medium">Recent Drafts</h3>
           <div className="mt-3 space-y-3">
-            {drafts.map(d => (
-              <div key={d.id} className="flex items-center justify-between p-3 border rounded">
-                <div>
-                  <div className="font-semibold">{d.title}</div>
-                  <div className="text-sm text-slate-500">{d.createdBy} • {new Date(d.createdAt).toLocaleDateString()}</div>
-                </div>
-                <div className="text-sm text-slate-600">{d.status}</div>
-              </div>
-            ))}
+            {drafts.length === 0 ? (
+              <div className="text-center py-8 text-slate-500">No drafts yet.</div>
+            ) : (
+              drafts.map(d => (
+                <Link
+                  key={d.id}
+                  to={`/draft/${d.id}`}
+                  className="flex items-center justify-between p-3 border rounded hover:bg-slate-50 hover:border-indigo-300 transition-colors"
+                >
+                  <div>
+                    <div className="font-semibold">{d.title}</div>
+                    <div className="text-sm text-slate-500">{d.createdBy} • {new Date(d.createdAt).toLocaleDateString()}</div>
+                  </div>
+                  <div className="text-sm text-slate-600">{d.status}</div>
+                </Link>
+              ))
+            )}
           </div>
         </section>
 
         <aside className="bg-white p-6 rounded-lg shadow-sm">
           <h2 className="text-lg font-semibold mb-4">Quick Actions</h2>
           <div className="space-y-2">
-            <Link to="/create" className="block w-full text-center px-4 py-2 bg-indigo-600 text-white rounded">Create New Draft</Link>
-            <Link to="/approval" className="block w-full text-center px-4 py-2 border rounded">Review Pending</Link>
+            {canCreateDraft(role) && (
+              <Link to="/create" className="block w-full text-center px-4 py-2 bg-indigo-600 text-white rounded">Create New Draft</Link>
+            )}
+            {canApproveDraft(role) && (
+              <Link to="/approval" className="block w-full text-center px-4 py-2 border rounded">Review Pending</Link>
+            )}
           </div>
         </aside>
       </div>

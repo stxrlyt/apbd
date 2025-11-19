@@ -1,15 +1,28 @@
 import React, { useState, useMemo } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useDrafts } from "../contexts/DraftsContext";
+import { useAuth } from "../contexts/AuthContext";
+import { canCreateDraft } from "../utils/permissions";
 import { uid, now } from "../utils/helpers";
 
 // Create Draft Page
 export default function CreateDraft() {
   const { createDraft } = useDrafts();
+  const { userData, role } = useAuth();
   const navigate = useNavigate();
   const [title, setTitle] = useState("");
   const [items, setItems] = useState([]);
   const [itemDraft, setItemDraft] = useState({ code: "", name: "", qty: 0, unit: "", unitPrice: 0 });
+
+  // Check permissions
+  if (!canCreateDraft(role)) {
+    return (
+      <div className="bg-white p-6 rounded shadow-sm">
+        <h2 className="text-xl font-semibold mb-4">Access Denied</h2>
+        <p className="text-slate-600">You don't have permission to create drafts. Only admins and secretaries can create drafts.</p>
+      </div>
+    );
+  }
 
   function addItem() {
     if (!itemDraft.name) return;
@@ -25,7 +38,7 @@ export default function CreateDraft() {
     try {
       const newDraft = {
         title: title || "Untitled Draft",
-        createdBy: "User Lokal",
+        createdBy: userData?.displayName || userData?.email || "Unknown User",
         createdAt: now(),
         status: "Draft",
         versions: [
@@ -33,7 +46,7 @@ export default function CreateDraft() {
             vid: uid(),
             summary: "Initial",
             createdAt: now(),
-            createdBy: "User Lokal",
+            createdBy: userData?.displayName || userData?.email || "Unknown User",
             items
           }
         ]

@@ -1,11 +1,24 @@
 import React, { useState, useMemo } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useDrafts } from "../contexts/DraftsContext";
+import { useAuth } from "../contexts/AuthContext";
+import { canApproveDraft } from "../utils/permissions";
 
 // Approval Page (single-level approval)
 function Approval() {
   const { drafts, approveDraft, requestChanges, loading } = useDrafts();
+  const { role } = useAuth();
   const pending = drafts.filter(d => d.status === "Draft" || d.status === "Pending");
+
+  // Check permissions
+  if (!canApproveDraft(role)) {
+    return (
+      <div className="bg-white p-6 rounded shadow-sm">
+        <h2 className="text-xl font-semibold mb-4">Access Denied</h2>
+        <p className="text-slate-600">You don't have permission to approve drafts. Only kades, admins, and secretaries can approve drafts.</p>
+      </div>
+    );
+  }
 
   if (loading) {
     return (
