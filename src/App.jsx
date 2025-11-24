@@ -11,6 +11,7 @@ import AppShell from "./components/AppShell";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import CreateDraft from "./pages/CreateDraft";
+import Income from "./pages/Income";
 import Approval from "./pages/Approval";
 import Revisions from "./pages/Revisions";
 import Reports from "./pages/Reports";
