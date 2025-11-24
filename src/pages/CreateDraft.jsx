@@ -1,14 +1,28 @@
 import React, { useState, useMemo } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useDrafts } from "../contexts/DraftsContext";
+import { useAuth } from "../contexts/AuthContext";
+import { canCreateDraft } from "../utils/permissions";
+import { uid, now } from "../utils/helpers";
 
 // Create Draft Page
 export default function CreateDraft() {
   const { createDraft } = useDrafts();
+  const { userData, role } = useAuth();
   const navigate = useNavigate();
   const [title, setTitle] = useState("");
   const [items, setItems] = useState([]);
   const [itemDraft, setItemDraft] = useState({ code: "", name: "", qty: 0, unit: "", unitPrice: 0 });
+
+  // Check permissions
+  if (!canCreateDraft(role)) {
+    return (
+      <div className="bg-white p-6 rounded shadow-sm">
+        <h2 className="text-xl font-semibold mb-4">Access Denied</h2>
+        <p className="text-slate-600">You don't have permission to create drafts. Only admins and secretaries can create drafts.</p>
+      </div>
+    );
+  }
 
   function addItem() {
     if (!itemDraft.name) return;
@@ -20,25 +34,29 @@ export default function CreateDraft() {
     setItems(prev => prev.filter((_, i) => i !== index));
   }
 
-  function submit() {
-    const newDraft = {
-      id: uid(),
-      title: title || "Untitled Draft",
-      createdBy: "User Lokal",
-      createdAt: now(),
-      status: "Draft",
-      versions: [
-        {
-          vid: uid(),
-          summary: "Initial",
-          createdAt: now(),
-          createdBy: "User Lokal",
-          items
-        }
-      ]
-    };
-    createDraft(newDraft);
-    navigate("/");
+  async function submit() {
+    try {
+      const newDraft = {
+        title: title || "Untitled Draft",
+        createdBy: userData?.displayName || userData?.email || "Unknown User",
+        createdAt: now(),
+        status: "Draft",
+        versions: [
+          {
+            vid: uid(),
+            summary: "Initial",
+            createdAt: now(),
+            createdBy: userData?.displayName || userData?.email || "Unknown User",
+            items
+          }
+        ]
+      };
+      await createDraft(newDraft);
+      navigate("/");
+    } catch (error) {
+      console.error("Error saving draft:", error);
+      alert("Failed to save draft. Please try again.");
+    }
   }
 
   const total = items.reduce((s, it) => s + (Number(it.qty) * Number(it.unitPrice)), 0);

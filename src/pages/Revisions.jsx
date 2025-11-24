@@ -1,12 +1,25 @@
-import React, { useState, useMemo } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useParams } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import { useDrafts } from "../contexts/DraftsContext";
+import { useAuth } from "../contexts/AuthContext";
+import { canEditDraft } from "../utils/permissions";
 import VersionList from "../components/VersionList";
 import VersionAdder from "../components/VersionAdder";
 
 // Revisions Page
 export default function Revisions() {
-  const { drafts, addVersion } = useDrafts();
+  const { drafts, addVersion, loading } = useDrafts();
+  const { role } = useAuth();
+  
+  if (loading) {
+    return (
+      <div className="bg-white p-6 rounded shadow-sm">
+        <h2 className="text-xl font-semibold mb-4">Revisions & Version Control</h2>
+        <p className="text-slate-500">Loading...</p>
+      </div>
+    );
+  }
+  
   return (
     <div className="bg-white p-6 rounded shadow-sm">
       <h2 className="text-xl font-semibold mb-4">Revisions & Version Control</h2>
@@ -20,7 +33,9 @@ export default function Revisions() {
               </div>
               <div className="flex gap-2">
                 <Link to={`/draft/${d.id}`} className="px-3 py-1 border rounded">Open</Link>
-                <VersionAdder draft={d} onAddVersion={addVersion} />
+                {canEditDraft(role) && (
+                  <VersionAdder draft={d} onAddVersion={addVersion} />
+                )}
               </div>
             </div>
 
