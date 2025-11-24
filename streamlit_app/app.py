@@ -42,6 +42,8 @@ if "gemini_configured" not in st.session_state:
 # Sidebar for configuration
 with st.sidebar:
     st.title("⚙️ Configuration")
+
+    st.link_button("Back", "http://localhost:5173/")
     
     if st.session_state.gemini_configured:
         st.success("API key loaded from Streamlit secrets.")
