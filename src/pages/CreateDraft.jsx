@@ -12,7 +12,9 @@ export default function CreateDraft() {
   const navigate = useNavigate();
   const [title, setTitle] = useState("");
   const [items, setItems] = useState([]);
+  const [revenueItems, setRevenueItems] = useState([]);
   const [itemDraft, setItemDraft] = useState({ code: "", name: "", qty: 0, unit: "", unitPrice: 0 });
+  const [revenueDraft, setRevenueDraft] = useState({ code: "", name: "", revenueAmount: 0 });
 
   // Check permissions
   if (!canCreateDraft(role)) {
@@ -34,6 +36,16 @@ export default function CreateDraft() {
     setItems(prev => prev.filter((_, i) => i !== index));
   }
 
+  function addRevenueItem() {
+    if (!revenueDraft.name) return;
+    setRevenueItems(prev => [...prev, { ...revenueDraft }]);
+    setRevenueDraft({ code: "", name: "", revenueAmount: 0 });
+  }
+
+  function removeRevenueItem(index) {
+    setRevenueItems(prev => prev.filter((_, i) => i !== index));
+  }
+
   async function submit() {
     try {
       const newDraft = {
@@ -47,7 +59,8 @@ export default function CreateDraft() {
             summary: "Initial",
             createdAt: now(),
             createdBy: userData?.displayName || userData?.email || "Unknown User",
-            items
+            items,
+            revenues: revenueItems
           }
         ]
       };
@@ -60,6 +73,7 @@ export default function CreateDraft() {
   }
 
   const total = items.reduce((s, it) => s + (Number(it.qty) * Number(it.unitPrice)), 0);
+  const revenueTotal = revenueItems.reduce((s, it) => s + Number(it.revenueAmount), 0);
 
   return (
     <div className="bg-white p-6 rounded shadow-sm">
@@ -113,6 +127,49 @@ export default function CreateDraft() {
           </div>
 
           <div className="mt-4 text-right font-semibold">Total: Rp {total.toLocaleString()}</div>
+        </div>
+
+        <div className="border p-3 rounded">
+          <h3 className="font-medium">Add Revenue Item</h3>
+          <div className="grid grid-cols-2 gap-2 mt-2">
+            <input placeholder="Kode" value={revenueDraft.code} onChange={e => setRevenueDraft(s => ({ ...s, code: e.target.value }))} className="p-2 border rounded" />
+            <input placeholder="Nama pendapatan" value={revenueDraft.name} onChange={e => setRevenueDraft(s => ({ ...s, name: e.target.value }))} className="p-2 border rounded" />
+            <input
+              placeholder="Jumlah pendapatan"
+              type="number"
+              value={revenueDraft.revenueAmount}
+              onChange={e => setRevenueDraft(s => ({ ...s, revenueAmount: e.target.value }))}
+              className="p-2 border rounded col-span-2"
+            />
+          </div>
+          <div className="mt-3 flex gap-2">
+            <button onClick={addRevenueItem} className="px-3 py-1 bg-blue-600 text-white rounded">Add Revenue</button>
+          </div>
+
+          <div className="mt-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="text-left text-slate-600">
+                  <th>Kode</th>
+                  <th>Nama</th>
+                  <th className="text-right">Jumlah Pendapatan</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                {revenueItems.map((it, idx) => (
+                  <tr key={idx} className="border-t">
+                    <td>{it.code}</td>
+                    <td>{it.name}</td>
+                    <td className="text-right">Rp {Number(it.revenueAmount).toLocaleString()}</td>
+                    <td><button onClick={() => removeRevenueItem(idx)} className="text-sm text-red-600">Remove</button></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-4 text-right font-semibold">Total: Rp {revenueTotal.toLocaleString()}</div>
         </div>
 
         <div className="flex justify-end gap-2">
