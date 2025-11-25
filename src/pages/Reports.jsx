@@ -12,35 +12,38 @@ export default function Reports() {
   // Simple report: show approved drafts and export placeholder
   const approved = drafts.filter(d => d.status === "Approved");
 
-  const flatten = (obj, prefix = "") => {
-    let result = {};
+  const flatten = (dataArray)=>{
+    let result = [];
 
-    for (const key in obj){
-      const value = obj[key];
-      const newKey = prefix ? `${prefix}_${key}` : key;
+    dataArray.forEach(mainRecord => {
+      const { id, title, createdAt, createdBy, status, updatedAt, versions} = mainRecord;
 
-      if(value === null || value === undefined){
-        result[newKey] = "";
-      }
+      versions.forEach(version => {
+        const { createdAt: versionCreatedAt, createdBy: versionCreatedBy, items } = version;
 
-      else if(value?.toDate){
-        result[newKey] = value.toDate().toISOString();
-      }
+        items.forEach(item => {
+          const flatRow = {
+            'ID': id,
+            'Title': title,
+            'Created At (Main)': createdAt,
+            'Created By (Main)': createdBy,
+            'Status': status,
+            'Updated At': updatedAt,
+            'Version Created At': versionCreatedAt,
+            'Version Created By': versionCreatedBy,
 
-      else if(typeof value !== "object" || value instanceof Date){
-        result[newKey] = value;
-      }
-
-      else if (Array.isArray(value)) {
-        result[newKey] = JSON.stringify(value);
-      }
-
-      else {
-        Object.assign(result, flatten(value, newKey));
-      }
-    }
-    return result
-  };
+            'Item Code': item.code,
+            'Item Name': item.name,
+            'Quantity': item.qty,
+            'Unit': item.unit,
+            'Unit Price': item.unitPrice
+          };
+          result.push(flatRow);
+        });
+      });
+    });
+    return result;
+  }
 
   const exportExcel = async (documentId) => {
     try {
@@ -51,11 +54,13 @@ export default function Reports() {
         return;
       }
 
-      const data = snap.data();
+      const data = snap.data(); // data is a single document object
 
-      const flattened = flatten(data);
+      // 1. FIX: Wrap the single document object in an array before passing it to flatten.
+      const flattened = flatten([data]);
 
-      const worksheet = XLSX.utils.json_to_sheet([flattened]);
+      // 2. FIX: Pass the array of flat objects directly to json_to_sheet.
+      const worksheet = XLSX.utils.json_to_sheet(flattened);
       const workbook = XLSX.utils.book_new();
 
       XLSX.utils.book_append_sheet(workbook, worksheet, "Draft");
@@ -64,6 +69,7 @@ export default function Reports() {
     }
     catch (error){
       console.error("Export error: ", error);
+      alert("Failed to export: " + error.message);
     }
   };
 
