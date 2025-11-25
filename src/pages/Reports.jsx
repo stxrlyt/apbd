@@ -19,11 +19,10 @@ export default function Reports() {
       const { id, title, createdAt, createdBy, status, updatedAt, versions} = mainRecord;
 
       versions.forEach(version => {
-        const { createdAt: versionCreatedAt, createdBy: versionCreatedBy, items } = version;
+        const { createdAt: versionCreatedAt, createdBy: versionCreatedBy, vid: versionId, summary: versionSummary, items } = version;
 
         items.forEach(item => {
           const flatRow = {
-            'ID': id,
             'Title': title,
             'Created At (Main)': createdAt,
             'Created By (Main)': createdBy,
@@ -31,6 +30,8 @@ export default function Reports() {
             'Updated At': updatedAt,
             'Version Created At': versionCreatedAt,
             'Version Created By': versionCreatedBy,
+            'Version ID': versionId,
+            'Version Summary': versionSummary,
 
             'Item Code': item.code,
             'Item Name': item.name,
@@ -54,12 +55,10 @@ export default function Reports() {
         return;
       }
 
-      const data = snap.data(); // data is a single document object
+      const data = snap.data();
 
-      // 1. FIX: Wrap the single document object in an array before passing it to flatten.
       const flattened = flatten([data]);
 
-      // 2. FIX: Pass the array of flat objects directly to json_to_sheet.
       const worksheet = XLSX.utils.json_to_sheet(flattened);
       const workbook = XLSX.utils.book_new();
 
@@ -72,7 +71,6 @@ export default function Reports() {
       alert("Failed to export: " + error.message);
     }
   };
-
 
   return (
     <div className="bg-white p-6 rounded shadow-sm">
