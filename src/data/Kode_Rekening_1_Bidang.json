@@ -1,0 +1,2540 @@
+{
+    "1": {
+        "a": "1",
+        "b": "",
+        "c": "",
+        "Uraian": "BIDANG PENYELENGGARAAN PEMERINTAHAN DESA"
+    },
+    "11": {
+        "a": "1",
+        "b": "1",
+        "c": "",
+        "Uraian": "Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1101": {
+        "a": "1",
+        "b": "1",
+        "c": "01",
+        "Uraian": "Penyediaan Penghasilan Tetap dan Tunjangan Kepala Desa"
+    },
+    "1102": {
+        "a": "1",
+        "b": "1",
+        "c": "02",
+        "Uraian": "Penyediaan Penghasilan Tetap dan Tunjangan Perangkat Desa"
+    },
+    "1103": {
+        "a": "1",
+        "b": "1",
+        "c": "03",
+        "Uraian": "Penyediaan Jaminan Sosial bagi Kepala Desa dan Perangkat Desa"
+    },
+    "1104": {
+        "a": "1",
+        "b": "1",
+        "c": "04",
+        "Uraian": "Penyediaan Operasional Pemerintah Desa (ATK, Honorarium PKPKD dan PPKD, perlengkapan perkantoran, pakaian dinas/atribut, listrik/telpon, dll)"
+    },
+    "1105": {
+        "a": "1",
+        "b": "1",
+        "c": "05",
+        "Uraian": "Penyediaan Tunjangan BPD"
+    },
+    "1106": {
+        "a": "1",
+        "b": "1",
+        "c": "06",
+        "Uraian": "Penyediaan Operasional BPD (Rapat-rapat (ATK, makan-minum), perlengkapan perkantoran, Pakaian Seragam, perjalanan dinas, listrik/telpon, dll)"
+    },
+    "1107": {
+        "a": "1",
+        "b": "1",
+        "c": "07",
+        "Uraian": "Penyediaan Insentif/Operasional RT/RW"
+    },
+    "1190": {
+        "a": "1",
+        "b": "1",
+        "c": "90",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1191": {
+        "a": "1",
+        "b": "1",
+        "c": "91",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1192": {
+        "a": "1",
+        "b": "1",
+        "c": "92",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1193": {
+        "a": "1",
+        "b": "1",
+        "c": "93",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1194": {
+        "a": "1",
+        "b": "1",
+        "c": "94",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1195": {
+        "a": "1",
+        "b": "1",
+        "c": "95",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1196": {
+        "a": "1",
+        "b": "1",
+        "c": "96",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1197": {
+        "a": "1",
+        "b": "1",
+        "c": "97",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1198": {
+        "a": "1",
+        "b": "1",
+        "c": "98",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "1199": {
+        "a": "1",
+        "b": "1",
+        "c": "99",
+        "Uraian": "Lain-lain Sub Bidang Penyelenggaraan Belanja Penghasilan Tetap, Tunjangan dan Operasional Pemerintahan Desa"
+    },
+    "12": {
+        "a": "1",
+        "b": "2",
+        "c": "",
+        "Uraian": "Sub Bidang Sarana dan Prasarana Pemerintahan Desa"
+    },
+    "1201": {
+        "a": "1",
+        "b": "2",
+        "c": "01",
+        "Uraian": "Penyediaan sarana (aset tetap) perkantoran/pemerintahan"
+    },
+    "1202": {
+        "a": "1",
+        "b": "2",
+        "c": "02",
+        "Uraian": "Pemeliharaan Gedung/Prasarana Kantor Desa"
+    },
+    "1203": {
+        "a": "1",
+        "b": "2",
+        "c": "03",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Gedung/Prasarana Kantor Desa**"
+    },
+    "1290": {
+        "a": "1",
+        "b": "2",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1291": {
+        "a": "1",
+        "b": "2",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1292": {
+        "a": "1",
+        "b": "2",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1293": {
+        "a": "1",
+        "b": "2",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1294": {
+        "a": "1",
+        "b": "2",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1295": {
+        "a": "1",
+        "b": "2",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1296": {
+        "a": "1",
+        "b": "2",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1297": {
+        "a": "1",
+        "b": "2",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1298": {
+        "a": "1",
+        "b": "2",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "1299": {
+        "a": "1",
+        "b": "2",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang sarana dan prasarana pemerintahan Desa*"
+    },
+    "13": {
+        "a": "1",
+        "b": "3",
+        "c": "",
+        "Uraian": "Sub Bidang Administrasi Kependudukan, Pencatatan Sipil, Statistik dan Kearsipan"
+    },
+    "1301": {
+        "a": "1",
+        "b": "3",
+        "c": "01",
+        "Uraian": "Pelayanan administrasi umum dan kependudukan (Surat Pengantar/Pelayanan KTP, Akta Kelahiran, Kartu Keluarga, dll)"
+    },
+    "1302": {
+        "a": "1",
+        "b": "3",
+        "c": "02",
+        "Uraian": "Penyusunan/Pendataan/Pemutakhiran Profil Desa (profil kependudukan dan potensi desa)**"
+    },
+    "1303": {
+        "a": "1",
+        "b": "3",
+        "c": "03",
+        "Uraian": "Pengelolaan administrasi dan kearsipan pemerintahan desa"
+    },
+    "1304": {
+        "a": "1",
+        "b": "3",
+        "c": "04",
+        "Uraian": "Penyuluhan dan Penyadaran Masyarakat tentang Kependudukan dan Pencatatan Sipil"
+    },
+    "1305": {
+        "a": "1",
+        "b": "3",
+        "c": "05",
+        "Uraian": "Pemetaan dan Analisis Kemiskinan Desa secara Partisipatif"
+    },
+    "1390": {
+        "a": "1",
+        "b": "3",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1391": {
+        "a": "1",
+        "b": "3",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1392": {
+        "a": "1",
+        "b": "3",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1393": {
+        "a": "1",
+        "b": "3",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1394": {
+        "a": "1",
+        "b": "3",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1395": {
+        "a": "1",
+        "b": "3",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1396": {
+        "a": "1",
+        "b": "3",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1397": {
+        "a": "1",
+        "b": "3",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1398": {
+        "a": "1",
+        "b": "3",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "1399": {
+        "a": "1",
+        "b": "3",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang administrasi kependudukan, pencatatan sipil, statistik dan kearsipan*"
+    },
+    "14": {
+        "a": "1",
+        "b": "4",
+        "c": "",
+        "Uraian": "Sub Bidang Tata Praja Pemerintahan, Perencanaan, Keuangan dan Pelaporan"
+    },
+    "1401": {
+        "a": "1",
+        "b": "4",
+        "c": "01",
+        "Uraian": "Penyelenggaraan Musyawarah Perencanaan Desa/Pembahasan APBDes (Musdes, Musrenbangdes/Pra-Musrenbangdes, dll., bersifat reguler)"
+    },
+    "1402": {
+        "a": "1",
+        "b": "4",
+        "c": "02",
+        "Uraian": "Penyelenggaraan Musyawarah Desa lainnya (musdus, rembug warga, dll., yang bersifat non-reguler sesuai kebutuhan desa)"
+    },
+    "1403": {
+        "a": "1",
+        "b": "4",
+        "c": "03",
+        "Uraian": "Penyusunan Dokumen Perencanaan Desa (RPJMDes/RKPDes, dll)"
+    },
+    "1404": {
+        "a": "1",
+        "b": "4",
+        "c": "04",
+        "Uraian": "Penyusunan Dokumen Keuangan Desa (APBDes/ APBDes Perubahan/ LPJ APBDes, dan seluruh dokumen terkait)"
+    },
+    "1405": {
+        "a": "1",
+        "b": "4",
+        "c": "05",
+        "Uraian": "Pengelolaan/Administrasi/Inventarisasi/Penilaian Aset Desa"
+    },
+    "1406": {
+        "a": "1",
+        "b": "4",
+        "c": "06",
+        "Uraian": "Penyusunan Kebijakan Desa (Perdes/Perkades, dll- diluar dokumen Rencana Pembangunan/Keuangan)"
+    },
+    "1407": {
+        "a": "1",
+        "b": "4",
+        "c": "07",
+        "Uraian": "Penyusunan Laporan Kepala Desa/Penyelenggaraan Pemerintahan Desa (laporan akhir tahun anggaran, laporan akhir masa jabatan, laporan keterangan akhir tahun anggaran, informasi kepada masyarakat)"
+    },
+    "1408": {
+        "a": "1",
+        "b": "4",
+        "c": "08",
+        "Uraian": "Pengembangan Sistem Informasi Desa"
+    },
+    "1409": {
+        "a": "1",
+        "b": "4",
+        "c": "09",
+        "Uraian": "Koordinasi/Kerjasama Penyelenggaraan Pemerintahan dan Pembangunan Desa (Antar Desa/Kecamatan/Kabupaten, Pihak Ketiga, dll)**"
+    },
+    "1410": {
+        "a": "1",
+        "b": "4",
+        "c": "10",
+        "Uraian": "Dukungan Pelaksanaan dan Sosialisasi Pilkades, Pemilihan Kepala Kewilayahan dan Pemilihan BPD (yang menjadi wewenang Desa)"
+    },
+    "1411": {
+        "a": "1",
+        "b": "4",
+        "c": "11",
+        "Uraian": "Penyelenggaraan Lomba antar kewilayahan dan pengiriman kontingen dalam mengikuti Lomba Desa"
+    },
+    "1490": {
+        "a": "1",
+        "b": "4",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1491": {
+        "a": "1",
+        "b": "4",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1492": {
+        "a": "1",
+        "b": "4",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1493": {
+        "a": "1",
+        "b": "4",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1494": {
+        "a": "1",
+        "b": "4",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1495": {
+        "a": "1",
+        "b": "4",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1496": {
+        "a": "1",
+        "b": "4",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1497": {
+        "a": "1",
+        "b": "4",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1498": {
+        "a": "1",
+        "b": "4",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "1499": {
+        "a": "1",
+        "b": "4",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang tata praja pemerintahan, perencanaan, keuangan dan pelaporan*"
+    },
+    "15": {
+        "a": "1",
+        "b": "5",
+        "c": "",
+        "Uraian": "Sub Bidang Pertanahan"
+    },
+    "1501": {
+        "a": "1",
+        "b": "5",
+        "c": "01",
+        "Uraian": "Sertifikasi Tanah Kas Desa"
+    },
+    "1502": {
+        "a": "1",
+        "b": "5",
+        "c": "02",
+        "Uraian": "Administrasi Pertanahan (Pendaftaran Tanah, dan Pemberian Registrasi Agenda Pertanahan)"
+    },
+    "1503": {
+        "a": "1",
+        "b": "5",
+        "c": "03",
+        "Uraian": "Fasilitasi Sertifikasi Tanah untuk Masyarakat Miskin"
+    },
+    "1504": {
+        "a": "1",
+        "b": "5",
+        "c": "04",
+        "Uraian": "Mediasi Konflik Pertanahan"
+    },
+    "1505": {
+        "a": "1",
+        "b": "5",
+        "c": "05",
+        "Uraian": "Penyuluhan Pertanahan"
+    },
+    "1506": {
+        "a": "1",
+        "b": "5",
+        "c": "06",
+        "Uraian": "Administrasi Pajak Bumi dan Bangunan (PBB)"
+    },
+    "1507": {
+        "a": "1",
+        "b": "5",
+        "c": "07",
+        "Uraian": "Penentuan/Penegasan/Pembangunan Batas/Patok Tanah Desa **"
+    },
+    "1590": {
+        "a": "1",
+        "b": "5",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1591": {
+        "a": "1",
+        "b": "5",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1592": {
+        "a": "1",
+        "b": "5",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1593": {
+        "a": "1",
+        "b": "5",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1594": {
+        "a": "1",
+        "b": "5",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1595": {
+        "a": "1",
+        "b": "5",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1596": {
+        "a": "1",
+        "b": "5",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1597": {
+        "a": "1",
+        "b": "5",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1598": {
+        "a": "1",
+        "b": "5",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "1599": {
+        "a": "1",
+        "b": "5",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang pertanahan*"
+    },
+    "2": {
+        "a": "2",
+        "b": "",
+        "c": "",
+        "Uraian": "BIDANG PELAKSANAAN PEMBANGUNAN DESA"
+    },
+    "21": {
+        "a": "2",
+        "b": "1",
+        "c": "",
+        "Uraian": "Sub Bidang Pendidikan"
+    },
+    "2101": {
+        "a": "2",
+        "b": "1",
+        "c": "01",
+        "Uraian": "Penyelenggaraan PAUD/TK/TPA/TKA/TPQ/Madrasah Non-Formal Milik Desa** (Bantuan Honor Pengajar, Pakaian Seragam, Operasional, dst)"
+    },
+    "2102": {
+        "a": "2",
+        "b": "1",
+        "c": "02",
+        "Uraian": "Dukungan Penyelenggaraan PAUD (APE, Sarana PAUD, dst)"
+    },
+    "2103": {
+        "a": "2",
+        "b": "1",
+        "c": "03",
+        "Uraian": "Penyuluhan dan Pelatihan Pendidikan bagi Masyarakat"
+    },
+    "2104": {
+        "a": "2",
+        "b": "1",
+        "c": "04",
+        "Uraian": "Pemeliharaan Sarana dan Prasarana Perpustakaan/Taman Bacaan Desa/ Sanggar Belajar Milik Desa **"
+    },
+    "2105": {
+        "a": "2",
+        "b": "1",
+        "c": "05",
+        "Uraian": "Pemeliharaan Sarana dan Prasarana PAUD/TK/TPA/TKA/TPQ/Madrasah Non-Formal Milik Desa**"
+    },
+    "2106": {
+        "a": "2",
+        "b": "1",
+        "c": "06",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan/Pengadaan Sarana/Prasarana/Alat Peraga Edukatif (APE) PAUD/TK/TPA/TKA/TPQ/Madrasah Non-Formal Milik Desa**"
+    },
+    "2107": {
+        "a": "2",
+        "b": "1",
+        "c": "07",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sarana Prasarana Perpustakaan/Taman Bacaan Desa/ Sanggar Belajar Milik Desa**"
+    },
+    "2108": {
+        "a": "2",
+        "b": "1",
+        "c": "08",
+        "Uraian": "Pengelolaan Perpustakaan Milik Desa (Pengadaan Buku-buku Bacaan, Honor Penjaga untuk Perpustakaan/Taman Bacaan Desa)"
+    },
+    "2109": {
+        "a": "2",
+        "b": "1",
+        "c": "09",
+        "Uraian": "Pengembangan dan Pembinaan Sanggar Seni dan Belajar"
+    },
+    "2110": {
+        "a": "2",
+        "b": "1",
+        "c": "10",
+        "Uraian": "Dukungan Pendidikan bagi Siswa Miskin/Berprestasi"
+    },
+    "2190": {
+        "a": "2",
+        "b": "1",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2191": {
+        "a": "2",
+        "b": "1",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2192": {
+        "a": "2",
+        "b": "1",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2193": {
+        "a": "2",
+        "b": "1",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2194": {
+        "a": "2",
+        "b": "1",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2195": {
+        "a": "2",
+        "b": "1",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2196": {
+        "a": "2",
+        "b": "1",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2197": {
+        "a": "2",
+        "b": "1",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2198": {
+        "a": "2",
+        "b": "1",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "2199": {
+        "a": "2",
+        "b": "1",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang pendidikan*"
+    },
+    "22": {
+        "a": "2",
+        "b": "2",
+        "c": "",
+        "Uraian": "Sub Bidang Kesehatan"
+    },
+    "2201": {
+        "a": "2",
+        "b": "2",
+        "c": "01",
+        "Uraian": "Penyelenggaraan Pos Kesehatan Desa (PKD)/Polindes Milik Desa (Obat-obatan; Tambahan Insentif Bidan Desa/Perawat Desa; Penyediaan Pelayanan KB dan Alat Kontrasepsi bagi Keluarga Miskin, dst)"
+    },
+    "2202": {
+        "a": "2",
+        "b": "2",
+        "c": "02",
+        "Uraian": "Penyelenggaraan Posyandu (Makanan Tambahan, Kelas Ibu Hamil, Kelas Lansia, Insentif Kader Posyandu)"
+    },
+    "2203": {
+        "a": "2",
+        "b": "2",
+        "c": "03",
+        "Uraian": "Penyuluhan dan Pelatihan Bidang Kesehatan (untuk Masyarakat, Tenaga Kesehatan, Kader Kesehatan, dll)"
+    },
+    "2204": {
+        "a": "2",
+        "b": "2",
+        "c": "04",
+        "Uraian": "Penyelenggaraan Desa Siaga Kesehatan"
+    },
+    "2205": {
+        "a": "2",
+        "b": "2",
+        "c": "05",
+        "Uraian": "Pembinaan Palang Merah Remaja (PMR) tingkat desa"
+    },
+    "2206": {
+        "a": "2",
+        "b": "2",
+        "c": "06",
+        "Uraian": "Pengasuhan Bersama atau Bina Keluarga Balita (BKB)"
+    },
+    "2207": {
+        "a": "2",
+        "b": "2",
+        "c": "07",
+        "Uraian": "Pembinaan dan Pengawasan Upaya Kesehatan Tradisional"
+    },
+    "2208": {
+        "a": "2",
+        "b": "2",
+        "c": "08",
+        "Uraian": "Pemeliharaan Sarana/Prasarana Posyandu/Polindes/PKD"
+    },
+    "2209": {
+        "a": "2",
+        "b": "2",
+        "c": "09",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan/Pengadaan Sarana/Prasarana Posyandu/Polindes/PKD **"
+    },
+    "2290": {
+        "a": "2",
+        "b": "2",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2291": {
+        "a": "2",
+        "b": "2",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2292": {
+        "a": "2",
+        "b": "2",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2293": {
+        "a": "2",
+        "b": "2",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2294": {
+        "a": "2",
+        "b": "2",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2295": {
+        "a": "2",
+        "b": "2",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2296": {
+        "a": "2",
+        "b": "2",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2297": {
+        "a": "2",
+        "b": "2",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2298": {
+        "a": "2",
+        "b": "2",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "2299": {
+        "a": "2",
+        "b": "2",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang kesehatan*"
+    },
+    "23": {
+        "a": "2",
+        "b": "3",
+        "c": "",
+        "Uraian": "Sub Bidang Pekerjaan Umum dan Penataan Ruang"
+    },
+    "2301": {
+        "a": "2",
+        "b": "3",
+        "c": "01",
+        "Uraian": "Pemeliharaan Jalan Desa"
+    },
+    "2302": {
+        "a": "2",
+        "b": "3",
+        "c": "02",
+        "Uraian": "Pemeliharaan Jalan Lingkungan Permukiman/Gang"
+    },
+    "2303": {
+        "a": "2",
+        "b": "3",
+        "c": "03",
+        "Uraian": "Pemeliharaan Jalan Usaha Tani"
+    },
+    "2304": {
+        "a": "2",
+        "b": "3",
+        "c": "04",
+        "Uraian": "Pemeliharaan Jembatan Milik Desa"
+    },
+    "2305": {
+        "a": "2",
+        "b": "3",
+        "c": "05",
+        "Uraian": "Pemeliharaan Prasarana Jalan Desa (Gorong-gorong, Selokan, Box/Slab Culvert, Drainase, Prasarana Jalan lain)"
+    },
+    "2306": {
+        "a": "2",
+        "b": "3",
+        "c": "06",
+        "Uraian": "Pemeliharaan Gedung/Prasarana Balai Desa/Balai Kemasyarakatan"
+    },
+    "2307": {
+        "a": "2",
+        "b": "3",
+        "c": "07",
+        "Uraian": "Pemeliharaan Pemakaman Milik Desa/Situs Bersejarah Milik Desa/Petilasan Milik"
+    },
+    "2308": {
+        "a": "2",
+        "b": "3",
+        "c": "08",
+        "Uraian": "Pemeliharaan Embung Milik Desa"
+    },
+    "2309": {
+        "a": "2",
+        "b": "3",
+        "c": "09",
+        "Uraian": "Pemeliharaan Monumen/Gapura/Batas Desa"
+    },
+    "2310": {
+        "a": "2",
+        "b": "3",
+        "c": "10",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan/Pengerasan Jalan Desa **"
+    },
+    "2311": {
+        "a": "2",
+        "b": "3",
+        "c": "11",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan/Pengerasan Jalan Lingkungan Permukiman/Gang **"
+    },
+    "2312": {
+        "a": "2",
+        "b": "3",
+        "c": "12",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan/Pengerasan Jalan Usaha Tani **"
+    },
+    "2313": {
+        "a": "2",
+        "b": "3",
+        "c": "13",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan/Pengerasan Jembatan Milik Desa **"
+    },
+    "2314": {
+        "a": "2",
+        "b": "3",
+        "c": "14",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Prasarana Jalan Desa (Gorong-gorong, Selokan, Box/Slab Culvert, Drainase, Prasarana Jalan lain) **"
+    },
+    "2315": {
+        "a": "2",
+        "b": "3",
+        "c": "15",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Balai Desa/Balai Kemasyarakatan**"
+    },
+    "2316": {
+        "a": "2",
+        "b": "3",
+        "c": "16",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Pemakaman Milik Desa/Situs Bersejarah Milik Desa/Petilasan"
+    },
+    "2317": {
+        "a": "2",
+        "b": "3",
+        "c": "17",
+        "Uraian": "Pembuatan/Pemutakhiran Peta Wilayah dan Sosial Desa **"
+    },
+    "2318": {
+        "a": "2",
+        "b": "3",
+        "c": "18",
+        "Uraian": "Penyusunan Dokumen Perencanaan Tata Ruang Desa"
+    },
+    "2319": {
+        "a": "2",
+        "b": "3",
+        "c": "19",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Embung Desa **"
+    },
+    "2320": {
+        "a": "2",
+        "b": "3",
+        "c": "20",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Monumen/Gapura/Batas Desa **"
+    },
+    "2390": {
+        "a": "2",
+        "b": "3",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2391": {
+        "a": "2",
+        "b": "3",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2392": {
+        "a": "2",
+        "b": "3",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2393": {
+        "a": "2",
+        "b": "3",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2394": {
+        "a": "2",
+        "b": "3",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2395": {
+        "a": "2",
+        "b": "3",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2396": {
+        "a": "2",
+        "b": "3",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2397": {
+        "a": "2",
+        "b": "3",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2398": {
+        "a": "2",
+        "b": "3",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "2399": {
+        "a": "2",
+        "b": "3",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang pekerjaan umum dan penataan ruang*"
+    },
+    "24": {
+        "a": "2",
+        "b": "4",
+        "c": "",
+        "Uraian": "Sub Bidang Kawasan Permukiman"
+    },
+    "2401": {
+        "a": "2",
+        "b": "4",
+        "c": "01",
+        "Uraian": "Dukungan pelaksanaan program Pembangunan/Rehab Rumah Tidak Layak Huni (RTLH) GAKIN (pemetaan, validasi, dll)"
+    },
+    "2402": {
+        "a": "2",
+        "b": "4",
+        "c": "02",
+        "Uraian": "Pemeliharaan Sumur Resapan Milik Desa"
+    },
+    "2403": {
+        "a": "2",
+        "b": "4",
+        "c": "03",
+        "Uraian": "Pemeliharaan Sumber Air Bersih Milik Desa (Mata Air/Tandon Penampungan Air Hujan/Sumur Bor, dll)"
+    },
+    "2404": {
+        "a": "2",
+        "b": "4",
+        "c": "04",
+        "Uraian": "Pemeliharaan Sambungan Air Bersih ke Rumah Tangga (pipanisasi, dll)"
+    },
+    "2405": {
+        "a": "2",
+        "b": "4",
+        "c": "05",
+        "Uraian": "Pemeliharaan Sanitasi Permukiman (Gorong-gorong, Selokan, Parit, dll., diluar prasarana jalan)"
+    },
+    "2406": {
+        "a": "2",
+        "b": "4",
+        "c": "06",
+        "Uraian": "Pemeliharaan Fasilitas Jamban Umum/MCK umum, dll"
+    },
+    "2407": {
+        "a": "2",
+        "b": "4",
+        "c": "07",
+        "Uraian": "Pemeliharaan Fasilitas Pengelolaan Sampah Desa/Permukiman (Penampungan, Bank Sampah, dll)"
+    },
+    "2408": {
+        "a": "2",
+        "b": "4",
+        "c": "08",
+        "Uraian": "Pemeliharaan Sistem Pembuangan Air Limbah (Drainase, Air limbah Rumah Tangga)"
+    },
+    "2409": {
+        "a": "2",
+        "b": "4",
+        "c": "09",
+        "Uraian": "Pemeliharaan Taman/Taman Bermain Anak Milik Desa"
+    },
+    "2410": {
+        "a": "2",
+        "b": "4",
+        "c": "10",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sumur Resapan **"
+    },
+    "2411": {
+        "a": "2",
+        "b": "4",
+        "c": "11",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sumber Air Bersih Milik Desa (Mata Air/Tandon Penampungan Air Hujan/Sumur Bor, dll)**"
+    },
+    "2412": {
+        "a": "2",
+        "b": "4",
+        "c": "12",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sambungan Air Bersih ke Rumah Tangga (pipanisasi, dll) **"
+    },
+    "2413": {
+        "a": "2",
+        "b": "4",
+        "c": "13",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sanitasi Permukiman (Gorong-gorong, Selokan, Parit, dll., diluar prasarana jalan) **"
+    },
+    "2414": {
+        "a": "2",
+        "b": "4",
+        "c": "14",
+        "Uraian": "Pembangunan/Rehabilitas/Peningkatan Fasilitas Jamban Umum/MCK umum, dll **"
+    },
+    "2415": {
+        "a": "2",
+        "b": "4",
+        "c": "15",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Fasilitas Pengelolaan Sampah Desa/Permukiman (Penampungan, Bank Sampah, dll)**"
+    },
+    "2416": {
+        "a": "2",
+        "b": "4",
+        "c": "16",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sistem Pembuangan Air Limbah (Drainase, Air limbah Rumah Tangga)**"
+    },
+    "2417": {
+        "a": "2",
+        "b": "4",
+        "c": "17",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Taman/Taman Bermain Anak Milik Desa**"
+    },
+    "2490": {
+        "a": "2",
+        "b": "4",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2491": {
+        "a": "2",
+        "b": "4",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2492": {
+        "a": "2",
+        "b": "4",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2493": {
+        "a": "2",
+        "b": "4",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2494": {
+        "a": "2",
+        "b": "4",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2495": {
+        "a": "2",
+        "b": "4",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2496": {
+        "a": "2",
+        "b": "4",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2497": {
+        "a": "2",
+        "b": "4",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2498": {
+        "a": "2",
+        "b": "4",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "2499": {
+        "a": "2",
+        "b": "4",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang perumahan rakyat dan kawasan pemukiman*"
+    },
+    "25": {
+        "a": "2",
+        "b": "5",
+        "c": "",
+        "Uraian": "Sub Bidang Kehutanan dan Lingkungan Hidup"
+    },
+    "2501": {
+        "a": "2",
+        "b": "5",
+        "c": "01",
+        "Uraian": "Pengelolaan Hutan Milik Desa"
+    },
+    "2502": {
+        "a": "2",
+        "b": "5",
+        "c": "02",
+        "Uraian": "Pengelolaan Lingkungan Hidup Desa"
+    },
+    "2503": {
+        "a": "2",
+        "b": "5",
+        "c": "03",
+        "Uraian": "Pelatihan/Sosialisasi/Penyuluhan/Penyadaran tentang Lingkungan Hidup dan Kehutanan"
+    },
+    "2590": {
+        "a": "2",
+        "b": "5",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2591": {
+        "a": "2",
+        "b": "5",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2592": {
+        "a": "2",
+        "b": "5",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2593": {
+        "a": "2",
+        "b": "5",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2594": {
+        "a": "2",
+        "b": "5",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2595": {
+        "a": "2",
+        "b": "5",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2596": {
+        "a": "2",
+        "b": "5",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2597": {
+        "a": "2",
+        "b": "5",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2598": {
+        "a": "2",
+        "b": "5",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "2599": {
+        "a": "2",
+        "b": "5",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Kehutanan dan Lingkungan Hidup*"
+    },
+    "26": {
+        "a": "2",
+        "b": "6",
+        "c": "",
+        "Uraian": "Sub Bidang Perhubungan, Komunikasi, dan Informatika"
+    },
+    "2601": {
+        "a": "2",
+        "b": "6",
+        "c": "01",
+        "Uraian": "Pembuatan Rambu-rambu di Jalan Desa"
+    },
+    "2602": {
+        "a": "2",
+        "b": "6",
+        "c": "02",
+        "Uraian": "Penyelenggaraan Informasi Publik Desa (Misal: Pembuatan Poster/Baliho Informasi penetapan/LPJ APBDes untuk Warga, dll)"
+    },
+    "2603": {
+        "a": "2",
+        "b": "6",
+        "c": "03",
+        "Uraian": "Pengelolaan dan Pembuatan Jaringan/Instalasi Komunikasi dan Informasi Lokal Desa"
+    },
+    "2690": {
+        "a": "2",
+        "b": "6",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2691": {
+        "a": "2",
+        "b": "6",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2692": {
+        "a": "2",
+        "b": "6",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2693": {
+        "a": "2",
+        "b": "6",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2694": {
+        "a": "2",
+        "b": "6",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2695": {
+        "a": "2",
+        "b": "6",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2696": {
+        "a": "2",
+        "b": "6",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2697": {
+        "a": "2",
+        "b": "6",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2698": {
+        "a": "2",
+        "b": "6",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "2699": {
+        "a": "2",
+        "b": "6",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Perhubungan, Komunikasi, dan Informatika*"
+    },
+    "27": {
+        "a": "2",
+        "b": "7",
+        "c": "",
+        "Uraian": "Sub Bidang Energi dan Sumber Daya Mineral"
+    },
+    "2701": {
+        "a": "2",
+        "b": "7",
+        "c": "01",
+        "Uraian": "Pemeliharaan Sarana dan Prasarana Energi Alternatif tingkat Desa"
+    },
+    "2702": {
+        "a": "2",
+        "b": "7",
+        "c": "02",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sarana dan Prasarana Energi Alternatif tingkat Desa **"
+    },
+    "2790": {
+        "a": "2",
+        "b": "7",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2791": {
+        "a": "2",
+        "b": "7",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2792": {
+        "a": "2",
+        "b": "7",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2793": {
+        "a": "2",
+        "b": "7",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2794": {
+        "a": "2",
+        "b": "7",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2795": {
+        "a": "2",
+        "b": "7",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2796": {
+        "a": "2",
+        "b": "7",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2797": {
+        "a": "2",
+        "b": "7",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2798": {
+        "a": "2",
+        "b": "7",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "2799": {
+        "a": "2",
+        "b": "7",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Energi dan Sumber Daya Mineral*"
+    },
+    "28": {
+        "a": "2",
+        "b": "8",
+        "c": "",
+        "Uraian": "Sub Bidang Pariwisata"
+    },
+    "2801": {
+        "a": "2",
+        "b": "8",
+        "c": "01",
+        "Uraian": "Pemeliharaan Sarana dan Prasarana Pariwisata Milik Desa"
+    },
+    "2802": {
+        "a": "2",
+        "b": "8",
+        "c": "02",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sarana dan Prasarana Pariwisata Milik Desa **"
+    },
+    "2803": {
+        "a": "2",
+        "b": "8",
+        "c": "03",
+        "Uraian": "Pengembangan Pariwisata Tingkat Desa"
+    },
+    "2890": {
+        "a": "2",
+        "b": "8",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2891": {
+        "a": "2",
+        "b": "8",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2892": {
+        "a": "2",
+        "b": "8",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2893": {
+        "a": "2",
+        "b": "8",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2894": {
+        "a": "2",
+        "b": "8",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2895": {
+        "a": "2",
+        "b": "8",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2896": {
+        "a": "2",
+        "b": "8",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2897": {
+        "a": "2",
+        "b": "8",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2898": {
+        "a": "2",
+        "b": "8",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "2899": {
+        "a": "2",
+        "b": "8",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang pariwisata*"
+    },
+    "3": {
+        "a": "3",
+        "b": "",
+        "c": "",
+        "Uraian": "BIDANG PEMBINAAN KEMASYARAKATAN DESA"
+    },
+    "31": {
+        "a": "3",
+        "b": "1",
+        "c": "",
+        "Uraian": "Sub Bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat"
+    },
+    "3101": {
+        "a": "3",
+        "b": "1",
+        "c": "01",
+        "Uraian": "Pengadaan/Penyelenggaraan Pos Keamanan Desa (pembangunan pos, pengawasan pelaksanaan jadwal ronda/patroli dll) **"
+    },
+    "3102": {
+        "a": "3",
+        "b": "1",
+        "c": "02",
+        "Uraian": "Penguatan dan Peningkatan Kapasitas Tenaga Keamanan/Ketertiban oleh Pemerintah Desa (Satlinmas desa)"
+    },
+    "3103": {
+        "a": "3",
+        "b": "1",
+        "c": "03",
+        "Uraian": "Koordinasi Pembinaan Ketentraman, Ketertiban, dan Pelindungan Masyarakat (dengan masyarakat/instansi pemerintah daerah, dll) Skala Lokal Desa"
+    },
+    "3104": {
+        "a": "3",
+        "b": "1",
+        "c": "04",
+        "Uraian": "Pelatihan Kesiapsiagaan/Tanggap Bencana Skala Lokal Desa"
+    },
+    "3105": {
+        "a": "3",
+        "b": "1",
+        "c": "05",
+        "Uraian": "Penyediaan Pos Kesiapsiagaan Bencana Skala Lokal Desa"
+    },
+    "3106": {
+        "a": "3",
+        "b": "1",
+        "c": "06",
+        "Uraian": "Bantuan Hukum Untuk Aparatur Desa dan Masyarakat Miskin"
+    },
+    "3107": {
+        "a": "3",
+        "b": "1",
+        "c": "07",
+        "Uraian": "Pelatihan/Penyuluhan/Sosialisasi kepada Masyarakat di Bidang Hukum dan Pelindungan Masyarakat"
+    },
+    "3190": {
+        "a": "3",
+        "b": "1",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3191": {
+        "a": "3",
+        "b": "1",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3192": {
+        "a": "3",
+        "b": "1",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3193": {
+        "a": "3",
+        "b": "1",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3194": {
+        "a": "3",
+        "b": "1",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3195": {
+        "a": "3",
+        "b": "1",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3196": {
+        "a": "3",
+        "b": "1",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3197": {
+        "a": "3",
+        "b": "1",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3198": {
+        "a": "3",
+        "b": "1",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "3199": {
+        "a": "3",
+        "b": "1",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Ketenteraman, Ketertiban Umum, dan Pelindungan Masyarakat*"
+    },
+    "32": {
+        "a": "3",
+        "b": "2",
+        "c": "",
+        "Uraian": "Sub Bidang Kebudayaan dan Keagamaan"
+    },
+    "3201": {
+        "a": "3",
+        "b": "2",
+        "c": "01",
+        "Uraian": "Pembinaan Group Kesenian dan Kebudayaan Tingkat Desa"
+    },
+    "3202": {
+        "a": "3",
+        "b": "2",
+        "c": "02",
+        "Uraian": "Pengiriman Kontingen Group Kesenian dan Kebudayaan sebagai Wakil Desa di tingkat Kecamatan dan Kabupaten/Kota"
+    },
+    "3203": {
+        "a": "3",
+        "b": "2",
+        "c": "03",
+        "Uraian": "Penyelenggaraan Festival Kesenian, Adat/Kebudayaan, dan Keagamaan (perayaan hari kemerdekaan, hari besar keagamaan, dll) tingkat Desa"
+    },
+    "3204": {
+        "a": "3",
+        "b": "2",
+        "c": "04",
+        "Uraian": "Pemeliharaan Sarana dan Prasarana Kebudayaan/Rumah Adat/Keagamaan Milik Desa **"
+    },
+    "3205": {
+        "a": "3",
+        "b": "2",
+        "c": "05",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sarana dan Prasarana Kebudayaan/Rumah Adat/Keagamaan Milik Desa **"
+    },
+    "3290": {
+        "a": "3",
+        "b": "2",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3291": {
+        "a": "3",
+        "b": "2",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3292": {
+        "a": "3",
+        "b": "2",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3293": {
+        "a": "3",
+        "b": "2",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3294": {
+        "a": "3",
+        "b": "2",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3295": {
+        "a": "3",
+        "b": "2",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3296": {
+        "a": "3",
+        "b": "2",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3297": {
+        "a": "3",
+        "b": "2",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3298": {
+        "a": "3",
+        "b": "2",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "3299": {
+        "a": "3",
+        "b": "2",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Kebudayaan dan Keagamaan*"
+    },
+    "33": {
+        "a": "3",
+        "b": "3",
+        "c": "",
+        "Uraian": "Sub Bidang Kepemudaan dan Olah Raga"
+    },
+    "3301": {
+        "a": "3",
+        "b": "3",
+        "c": "01",
+        "Uraian": "Pengiriman Kontingen Kepemudaan dan Olah Raga sebagai Wakil Desa di tingkat Kecamatan dan Kabupaten/Kota"
+    },
+    "3302": {
+        "a": "3",
+        "b": "3",
+        "c": "02",
+        "Uraian": "Penyelenggaraan pelatihan kepemudaan (Kepemudaan, Penyadaraan Wawasan Kebangsaan, dll) tingkat Desa"
+    },
+    "3303": {
+        "a": "3",
+        "b": "3",
+        "c": "03",
+        "Uraian": "Penyelenggaraan Festival/Lomba Kepemudaan dan Olahraga tingkat Desa"
+    },
+    "3304": {
+        "a": "3",
+        "b": "3",
+        "c": "04",
+        "Uraian": "Pemeliharaan Sarana dan Prasarana Kepemudaan dan Olah Raga Milik Desa**"
+    },
+    "3305": {
+        "a": "3",
+        "b": "3",
+        "c": "05",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Sarana dan Prasarana Kepemudaan dan Olah Raga Milik Desa**"
+    },
+    "3306": {
+        "a": "3",
+        "b": "3",
+        "c": "06",
+        "Uraian": "Pembinaan Karang Taruna/Klub Kepemudaan/Klub Olah raga"
+    },
+    "3390": {
+        "a": "3",
+        "b": "3",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3391": {
+        "a": "3",
+        "b": "3",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3392": {
+        "a": "3",
+        "b": "3",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3393": {
+        "a": "3",
+        "b": "3",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3394": {
+        "a": "3",
+        "b": "3",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3395": {
+        "a": "3",
+        "b": "3",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3396": {
+        "a": "3",
+        "b": "3",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3397": {
+        "a": "3",
+        "b": "3",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3398": {
+        "a": "3",
+        "b": "3",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "3399": {
+        "a": "3",
+        "b": "3",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Kepemudaan dan Olah Raga*"
+    },
+    "34": {
+        "a": "3",
+        "b": "4",
+        "c": "",
+        "Uraian": "Sub Bidang Kelembagaan Masyarakat"
+    },
+    "3401": {
+        "a": "3",
+        "b": "4",
+        "c": "01",
+        "Uraian": "Pembinaan Lembaga Adat"
+    },
+    "3402": {
+        "a": "3",
+        "b": "4",
+        "c": "02",
+        "Uraian": "Pembinaan LKMD/LPM/LPMD"
+    },
+    "3403": {
+        "a": "3",
+        "b": "4",
+        "c": "03",
+        "Uraian": "Pembinaan PKK"
+    },
+    "3404": {
+        "a": "3",
+        "b": "4",
+        "c": "04",
+        "Uraian": "Pelatihan Pembinaan Lembaga Kemasyarakatan"
+    },
+    "3490": {
+        "a": "3",
+        "b": "4",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3491": {
+        "a": "3",
+        "b": "4",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3492": {
+        "a": "3",
+        "b": "4",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3493": {
+        "a": "3",
+        "b": "4",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3494": {
+        "a": "3",
+        "b": "4",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3495": {
+        "a": "3",
+        "b": "4",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3496": {
+        "a": "3",
+        "b": "4",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3497": {
+        "a": "3",
+        "b": "4",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3498": {
+        "a": "3",
+        "b": "4",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "3499": {
+        "a": "3",
+        "b": "4",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Kelembagaan Masyarakat*"
+    },
+    "4": {
+        "a": "4",
+        "b": "",
+        "c": "",
+        "Uraian": "BIDANG PEMBERDAYAAN MASYARAKAT DESA"
+    },
+    "41": {
+        "a": "4",
+        "b": "1",
+        "c": "",
+        "Uraian": "Sub Bidang Kelautan dan Perikanan"
+    },
+    "4101": {
+        "a": "4",
+        "b": "1",
+        "c": "01",
+        "Uraian": "Pemeliharaan Karamba/Kolam Perikanan Darat Milik Desa"
+    },
+    "4102": {
+        "a": "4",
+        "b": "1",
+        "c": "02",
+        "Uraian": "Pemeliharaan Pelabuhan Perikanan Sungai/Kecil Milik Desa"
+    },
+    "4103": {
+        "a": "4",
+        "b": "1",
+        "c": "03",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Karamba/Kolam Perikanan Darat Milik Desa**"
+    },
+    "4104": {
+        "a": "4",
+        "b": "1",
+        "c": "04",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Pelabuhan Perikanan Sungai/Kecil Milik Desa**"
+    },
+    "4105": {
+        "a": "4",
+        "b": "1",
+        "c": "05",
+        "Uraian": "Bantuan Perikanan (Bibit/Pakan/dst)"
+    },
+    "4106": {
+        "a": "4",
+        "b": "1",
+        "c": "06",
+        "Uraian": "Pelatihan/Bimtek/Pengenalan Teknologi Tepat Guna untuk Perikanan Darat/Nelayan **"
+    },
+    "4190": {
+        "a": "4",
+        "b": "1",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4191": {
+        "a": "4",
+        "b": "1",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4192": {
+        "a": "4",
+        "b": "1",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4193": {
+        "a": "4",
+        "b": "1",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4194": {
+        "a": "4",
+        "b": "1",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4195": {
+        "a": "4",
+        "b": "1",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4196": {
+        "a": "4",
+        "b": "1",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4197": {
+        "a": "4",
+        "b": "1",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4198": {
+        "a": "4",
+        "b": "1",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "4199": {
+        "a": "4",
+        "b": "1",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang kelautan dan perikanan*"
+    },
+    "42": {
+        "a": "4",
+        "b": "2",
+        "c": "",
+        "Uraian": "Sub Bidang Pertanian dan Peternakan"
+    },
+    "4201": {
+        "a": "4",
+        "b": "2",
+        "c": "01",
+        "Uraian": "Peningkatan Produksi Tanaman Pangan (Alat Produksi dan pengolahan pertanian, penggilingan Padi/jagung, dll)"
+    },
+    "4202": {
+        "a": "4",
+        "b": "2",
+        "c": "02",
+        "Uraian": "Peningkatan Produksi Peternakan (Alat Produksi dan pengolahan peternakan, kandang, dll)"
+    },
+    "4203": {
+        "a": "4",
+        "b": "2",
+        "c": "03",
+        "Uraian": "Penguatan Ketahanan Pangan Tingkat Desa (Lumbung Desa, dll)"
+    },
+    "4204": {
+        "a": "4",
+        "b": "2",
+        "c": "04",
+        "Uraian": "Pemeliharan Saluran Irigasi Tersier/Sederhana"
+    },
+    "4205": {
+        "a": "4",
+        "b": "2",
+        "c": "05",
+        "Uraian": "Pelatihan/Bimtek/Pengenalan Teknologi Tepat Guna untuk Pertanian/Peternakan *"
+    },
+    "4290": {
+        "a": "4",
+        "b": "2",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4291": {
+        "a": "4",
+        "b": "2",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4292": {
+        "a": "4",
+        "b": "2",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4293": {
+        "a": "4",
+        "b": "2",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4294": {
+        "a": "4",
+        "b": "2",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4295": {
+        "a": "4",
+        "b": "2",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4296": {
+        "a": "4",
+        "b": "2",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4297": {
+        "a": "4",
+        "b": "2",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4298": {
+        "a": "4",
+        "b": "2",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "4299": {
+        "a": "4",
+        "b": "2",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Pertanian dan Peternakan*"
+    },
+    "43": {
+        "a": "4",
+        "b": "3",
+        "c": "",
+        "Uraian": "Sub Bidang Peningkatan Kapasitas Aparatur Desa"
+    },
+    "4301": {
+        "a": "4",
+        "b": "3",
+        "c": "01",
+        "Uraian": "Peningkatan kapasitas kepala Desa"
+    },
+    "4302": {
+        "a": "4",
+        "b": "3",
+        "c": "02",
+        "Uraian": "Peningkatan kapasitas perangkat Desa"
+    },
+    "4303": {
+        "a": "4",
+        "b": "3",
+        "c": "03",
+        "Uraian": "Peningkatan kapasitas BPD"
+    },
+    "4390": {
+        "a": "4",
+        "b": "3",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4391": {
+        "a": "4",
+        "b": "3",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4392": {
+        "a": "4",
+        "b": "3",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4393": {
+        "a": "4",
+        "b": "3",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4394": {
+        "a": "4",
+        "b": "3",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4395": {
+        "a": "4",
+        "b": "3",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4396": {
+        "a": "4",
+        "b": "3",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4397": {
+        "a": "4",
+        "b": "3",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4398": {
+        "a": "4",
+        "b": "3",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "4399": {
+        "a": "4",
+        "b": "3",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang peningkatan kapasitas Aparatur Desa"
+    },
+    "44": {
+        "a": "4",
+        "b": "4",
+        "c": "",
+        "Uraian": "Sub Bidang Pemberdayaan Perempuan, Perlindungan Anak dan Keluarga"
+    },
+    "4401": {
+        "a": "4",
+        "b": "4",
+        "c": "01",
+        "Uraian": "Pelatihan/Penyuluhan Pemberdayaan Perempuan"
+    },
+    "4402": {
+        "a": "4",
+        "b": "4",
+        "c": "02",
+        "Uraian": "Pelatihan/Penyuluhan Perlindungan Anak"
+    },
+    "4403": {
+        "a": "4",
+        "b": "4",
+        "c": "03",
+        "Uraian": "Pelatihan dan Penguatan Penyandang Difabel (penyandang disabilitas)"
+    },
+    "4490": {
+        "a": "4",
+        "b": "4",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4491": {
+        "a": "4",
+        "b": "4",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4492": {
+        "a": "4",
+        "b": "4",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4493": {
+        "a": "4",
+        "b": "4",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4494": {
+        "a": "4",
+        "b": "4",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4495": {
+        "a": "4",
+        "b": "4",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4496": {
+        "a": "4",
+        "b": "4",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4497": {
+        "a": "4",
+        "b": "4",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4498": {
+        "a": "4",
+        "b": "4",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "4499": {
+        "a": "4",
+        "b": "4",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Pemberdayaan Perempuan dan Perlindungan Anak*"
+    },
+    "45": {
+        "a": "4",
+        "b": "5",
+        "c": "",
+        "Uraian": "Sub Bidang Koperasi, Usaha Mikro Kecil dan Menengah (UMKM)"
+    },
+    "4501": {
+        "a": "4",
+        "b": "5",
+        "c": "01",
+        "Uraian": "Pelatihan Manajemen Pengelolaan Koperasi/ KUD/ UMKM"
+    },
+    "4502": {
+        "a": "4",
+        "b": "5",
+        "c": "02",
+        "Uraian": "Pengembangan Sarana Prasarana Usaha Mikro, Kecil dan Menengah serta Koperasi"
+    },
+    "4503": {
+        "a": "4",
+        "b": "5",
+        "c": "03",
+        "Uraian": "Pengadaan Teknologi Tepat Guna untuk Pengembangan Ekonomi Pedesaan Non-Pertanian"
+    },
+    "4590": {
+        "a": "4",
+        "b": "5",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4591": {
+        "a": "4",
+        "b": "5",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4592": {
+        "a": "4",
+        "b": "5",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4593": {
+        "a": "4",
+        "b": "5",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4594": {
+        "a": "4",
+        "b": "5",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4595": {
+        "a": "4",
+        "b": "5",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4596": {
+        "a": "4",
+        "b": "5",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4597": {
+        "a": "4",
+        "b": "5",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4598": {
+        "a": "4",
+        "b": "5",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "4599": {
+        "a": "4",
+        "b": "5",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Koperasi, Usaha Kecil dan Menengah*"
+    },
+    "46": {
+        "a": "4",
+        "b": "6",
+        "c": "",
+        "Uraian": "Sub Bidang Dukungan Penanaman Modal"
+    },
+    "4601": {
+        "a": "4",
+        "b": "6",
+        "c": "01",
+        "Uraian": "Pembentukan BUM Desa (Persiapan dan Pembentukan Awal BUM Desa)"
+    },
+    "4602": {
+        "a": "4",
+        "b": "6",
+        "c": "02",
+        "Uraian": "Pelatihan Pengelolaan BUM Desa (Pelatihan yang dilaksanakan oleh Desa)"
+    },
+    "4690": {
+        "a": "4",
+        "b": "6",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4691": {
+        "a": "4",
+        "b": "6",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4692": {
+        "a": "4",
+        "b": "6",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4693": {
+        "a": "4",
+        "b": "6",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4694": {
+        "a": "4",
+        "b": "6",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4695": {
+        "a": "4",
+        "b": "6",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4696": {
+        "a": "4",
+        "b": "6",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4697": {
+        "a": "4",
+        "b": "6",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4698": {
+        "a": "4",
+        "b": "6",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "4699": {
+        "a": "4",
+        "b": "6",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Penanaman Modal*"
+    },
+    "47": {
+        "a": "4",
+        "b": "7",
+        "c": "",
+        "Uraian": "Sub Bidang Perdagangan dan Perindustrian"
+    },
+    "4701": {
+        "a": "4",
+        "b": "7",
+        "c": "01",
+        "Uraian": "Pemeliharaan Pasar Desa/Kios milik Desa"
+    },
+    "4702": {
+        "a": "4",
+        "b": "7",
+        "c": "02",
+        "Uraian": "Pembangunan/Rehabilitasi/Peningkatan Pasar Desa/Kios milik Desa **"
+    },
+    "4703": {
+        "a": "4",
+        "b": "7",
+        "c": "03",
+        "Uraian": "Pengembangan Industri kecil level Desa"
+    },
+    "4704": {
+        "a": "4",
+        "b": "7",
+        "c": "04",
+        "Uraian": "Pembentukan/Fasilitasi/Pelatihan/Pendampingan kelompok usaha ekonomi produktif (pengrajin, pedagang, industri rumah tangga, dll) **"
+    },
+    "4790": {
+        "a": "4",
+        "b": "7",
+        "c": "90",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4791": {
+        "a": "4",
+        "b": "7",
+        "c": "91",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4792": {
+        "a": "4",
+        "b": "7",
+        "c": "92",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4793": {
+        "a": "4",
+        "b": "7",
+        "c": "93",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4794": {
+        "a": "4",
+        "b": "7",
+        "c": "94",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4795": {
+        "a": "4",
+        "b": "7",
+        "c": "95",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4796": {
+        "a": "4",
+        "b": "7",
+        "c": "96",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4797": {
+        "a": "4",
+        "b": "7",
+        "c": "97",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4798": {
+        "a": "4",
+        "b": "7",
+        "c": "98",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "4799": {
+        "a": "4",
+        "b": "7",
+        "c": "99",
+        "Uraian": "lain-lain kegiatan sub bidang Perdagangan dan Perindustrian*"
+    },
+    "5": {
+        "a": "5",
+        "b": "",
+        "c": "",
+        "Uraian": "BIDANG PENANGGULANGAN BENCANA, KEADAAN DARURAT DAN MENDESAK"
+    },
+    "51": {
+        "a": "5",
+        "b": "1",
+        "c": "",
+        "Uraian": "Sub Bidang Penanggulangan Bencana"
+    },
+    "5100": {
+        "a": "5",
+        "b": "1",
+        "c": "00",
+        "Uraian": "Penanggulangan Bencana"
+    },
+    "52": {
+        "a": "5",
+        "b": "2",
+        "c": "",
+        "Uraian": "Sub Bidang Keadaan Darurat"
+    },
+    "5200": {
+        "a": "5",
+        "b": "2",
+        "c": "00",
+        "Uraian": "Keadaan Darurat"
+    },
+    "53": {
+        "a": "5",
+        "b": "3",
+        "c": "",
+        "Uraian": "Sub Bidang Keadaan Mendesak"
+    },
+    "5300": {
+        "a": "5",
+        "b": "3",
+        "c": "00",
+        "Uraian": "Keadaan Mendesak"
+    }
+}

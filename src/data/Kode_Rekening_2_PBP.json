@@ -1,0 +1,2753 @@
+{
+    "4": {
+        "a": "4",
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "Uraian": "PENDAPATAN"
+    },
+    "41": {
+        "a": "4",
+        "b": "1",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Pendapatan Asli Desa"
+    },
+    "411": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": 0,
+        "Uraian": "Hasil Usaha"
+    },
+    "41101": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "01",
+        "Uraian": "Bagi Hasil BUMDes"
+    },
+    "41190": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "90",
+        "Uraian": "Lain-lain"
+    },
+    "41191": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "91",
+        "Uraian": "Lain-lain"
+    },
+    "41192": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "92",
+        "Uraian": "Lain-lain"
+    },
+    "41193": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "93",
+        "Uraian": "Lain-lain"
+    },
+    "41194": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "94",
+        "Uraian": "Lain-lain"
+    },
+    "41195": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "95",
+        "Uraian": "Lain-lain"
+    },
+    "41196": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "96",
+        "Uraian": "Lain-lain"
+    },
+    "41197": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "97",
+        "Uraian": "Lain-lain"
+    },
+    "41198": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "98",
+        "Uraian": "Lain-lain"
+    },
+    "41199": {
+        "a": "4",
+        "b": "1",
+        "c": "1",
+        "d": "99",
+        "Uraian": "Lain-lain"
+    },
+    "412": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": 0,
+        "Uraian": "Hasil Aset"
+    },
+    "41201": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "01",
+        "Uraian": "Pengelolaan Tanah Kas Desa"
+    },
+    "41202": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "02",
+        "Uraian": "Tambatan Perahu"
+    },
+    "41203": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "03",
+        "Uraian": "Pasar Desa"
+    },
+    "41204": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "04",
+        "Uraian": "Tempat Pemandian Umum"
+    },
+    "41205": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "05",
+        "Uraian": "Jaringan Irigasi Desa"
+    },
+    "41206": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "06",
+        "Uraian": "Pelelangan Ikan Milik Desa"
+    },
+    "41207": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "07",
+        "Uraian": "Kios Milik Desa"
+    },
+    "41208": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "08",
+        "Uraian": "Pemanfaatan Lapangan/Prasarana Olah raga Milik Desa"
+    },
+    "41290": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "90",
+        "Uraian": "Lain-lain"
+    },
+    "41291": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "91",
+        "Uraian": "Lain-lain"
+    },
+    "41292": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "92",
+        "Uraian": "Lain-lain"
+    },
+    "41293": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "93",
+        "Uraian": "Lain-lain"
+    },
+    "41294": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "94",
+        "Uraian": "Lain-lain"
+    },
+    "41295": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "95",
+        "Uraian": "Lain-lain"
+    },
+    "41296": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "96",
+        "Uraian": "Lain-lain"
+    },
+    "41297": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "97",
+        "Uraian": "Lain-lain"
+    },
+    "41298": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "98",
+        "Uraian": "Lain-lain"
+    },
+    "41299": {
+        "a": "4",
+        "b": "1",
+        "c": "2",
+        "d": "99",
+        "Uraian": "Lain-lain"
+    },
+    "413": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": 0,
+        "Uraian": "Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41301": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "01",
+        "Uraian": "Swadaya, partisipasi dan gotong royong"
+    },
+    "41390": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "90",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41391": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "91",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41392": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "92",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41393": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "93",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41394": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "94",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41395": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "95",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41396": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "96",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41397": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "97",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41398": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "98",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "41399": {
+        "a": "4",
+        "b": "1",
+        "c": "3",
+        "d": "99",
+        "Uraian": "Lain-lain Swadaya, Partisipasi dan Gotong Royong"
+    },
+    "414": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": 0,
+        "Uraian": "Lain-lain Pendapatan Asli Desa"
+    },
+    "41401": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "01",
+        "Uraian": "Hasil Pungutan Desa"
+    },
+    "41490": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "90",
+        "Uraian": "Lain-lain"
+    },
+    "41491": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "91",
+        "Uraian": "Lain-lain"
+    },
+    "41492": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "92",
+        "Uraian": "Lain-lain"
+    },
+    "41493": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "93",
+        "Uraian": "Lain-lain"
+    },
+    "41494": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "94",
+        "Uraian": "Lain-lain"
+    },
+    "41495": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "95",
+        "Uraian": "Lain-lain"
+    },
+    "41496": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "96",
+        "Uraian": "Lain-lain"
+    },
+    "41497": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "97",
+        "Uraian": "Lain-lain"
+    },
+    "41498": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "98",
+        "Uraian": "Lain-lain"
+    },
+    "41499": {
+        "a": "4",
+        "b": "1",
+        "c": "4",
+        "d": "99",
+        "Uraian": "Lain-lain"
+    },
+    "42": {
+        "a": "4",
+        "b": "2",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Transfer"
+    },
+    "421": {
+        "a": "4",
+        "b": "2",
+        "c": "1",
+        "d": 0,
+        "Uraian": "Dana Desa"
+    },
+    "42101": {
+        "a": "4",
+        "b": "2",
+        "c": "1",
+        "d": "01",
+        "Uraian": "Dana Desa"
+    },
+    "422": {
+        "a": "4",
+        "b": "2",
+        "c": "2",
+        "d": 0,
+        "Uraian": "Bagian dari Hasil Pajak dan Retribusi Daerah Kabupaten/kota"
+    },
+    "42201": {
+        "a": "4",
+        "b": "2",
+        "c": "2",
+        "d": "01",
+        "Uraian": "Bagian dari Hasil Pajak dan Retribusi Daerah Kabupaten/kota"
+    },
+    "423": {
+        "a": "4",
+        "b": "2",
+        "c": "3",
+        "d": 0,
+        "Uraian": "Alokasi Dana Desa"
+    },
+    "42301": {
+        "a": "4",
+        "b": "2",
+        "c": "3",
+        "d": "01",
+        "Uraian": "Alokasi Dana Desa"
+    },
+    "424": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": 0,
+        "Uraian": "Bantuan Keuangan Provinsi"
+    },
+    "42401": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "01",
+        "Uraian": "Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42490": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "90",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42491": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "91",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42492": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "92",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42493": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "93",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42494": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "94",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42495": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "95",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42496": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "96",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42497": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "97",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42498": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "98",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "42499": {
+        "a": "4",
+        "b": "2",
+        "c": "4",
+        "d": "99",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Provinsi"
+    },
+    "425": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": 0,
+        "Uraian": "Bantuan Keuangan APBD Kabupaten/Kota"
+    },
+    "42501": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "01",
+        "Uraian": "Bantuan Keuangan APBD Kabupaten/Kota"
+    },
+    "42590": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "90",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42591": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "91",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42592": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "92",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42593": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "93",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42594": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "94",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42595": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "95",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42596": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "96",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42597": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "97",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42598": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "98",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "42599": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "99",
+        "Uraian": "Lain-lain Bantuan Keuangan dari APBD Kabupaten/Kota"
+    },
+    "43": {
+        "a": "4",
+        "b": "3",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Pendapatan Lain-lain"
+    },
+    "431": {
+        "a": "4",
+        "b": "3",
+        "c": "1",
+        "d": 0,
+        "Uraian": "Penerimaan dari Hasil Kerjasama antar Desa"
+    },
+    "43101": {
+        "a": "4",
+        "b": "3",
+        "c": "1",
+        "d": "01",
+        "Uraian": "Penerimaan dari Hasil Kerjasama antar Desa"
+    },
+    "432": {
+        "a": "4",
+        "b": "3",
+        "c": "2",
+        "d": 0,
+        "Uraian": "Penerimaan dari Hasil Kerjasama Desa dengan Pihak Ketiga"
+    },
+    "43201": {
+        "a": "4",
+        "b": "3",
+        "c": "2",
+        "d": "01",
+        "Uraian": "Penerimaan dari Hasil Kerjasama Desa dengan Pihak Ketiga"
+    },
+    "433": {
+        "a": "4",
+        "b": "3",
+        "c": "3",
+        "d": 0,
+        "Uraian": "Penerimaan dari Bantuan Perusahaan yang berlokasi di Desa"
+    },
+    "43301": {
+        "a": "4",
+        "b": "3",
+        "c": "3",
+        "d": "01",
+        "Uraian": "Penerimaan dari Bantuan Perusahaan yang berlokasi di Desa"
+    },
+    "434": {
+        "a": "4",
+        "b": "3",
+        "c": "4",
+        "d": 0,
+        "Uraian": "Hibah dan sumbangan dari Pihak Ketiga"
+    },
+    "43401": {
+        "a": "4",
+        "b": "3",
+        "c": "4",
+        "d": "01",
+        "Uraian": "Hibah dan sumbangan dari Pihak Ketiga"
+    },
+    "435": {
+        "a": "4",
+        "b": "3",
+        "c": "5",
+        "d": 0,
+        "Uraian": "Koreksi kesalahan belanja tahun-tahun anggaran sebelumnya yang mengakibatkan penerimaan di kas Desa pada tahun anggaran berjalan"
+    },
+    "43501": {
+        "a": "4",
+        "b": "3",
+        "c": "5",
+        "d": "01",
+        "Uraian": "Koreksi kesalahan belanja tahun-tahun anggaran sebelumnya yang mengakibatkan penerimaan di kas Desa pada tahun anggaran berjalan"
+    },
+    "436": {
+        "a": "4",
+        "b": "3",
+        "c": "6",
+        "d": 0,
+        "Uraian": "Bunga Bank"
+    },
+    "43601": {
+        "a": "4",
+        "b": "3",
+        "c": "6",
+        "d": "01",
+        "Uraian": "Bunga Bank"
+    },
+    "439": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": 0,
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43990": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "90",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43991": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "91",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43992": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "92",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43993": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "93",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43994": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "94",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43995": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "95",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43996": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "96",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43997": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "97",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43998": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "98",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "43999": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "99",
+        "Uraian": "Lain-lain pendapatan Desa yang sah"
+    },
+    "5": {
+        "a": "5",
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "Uraian": "BELANJA"
+    },
+    "51": {
+        "a": "5",
+        "b": "1",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Belanja Pegawai"
+    },
+    "511": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": 0,
+        "Uraian": "Penghasilan Tetap dan Tunjangan Kepala Desa"
+    },
+    "51101": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "01",
+        "Uraian": "Penghasilan Tetap Kepala Desa"
+    },
+    "51102": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "02",
+        "Uraian": "Tunjangan Kepala Desa"
+    },
+    "51190": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "90",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51191": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "91",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51192": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "92",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51193": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "93",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51194": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "94",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51195": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "95",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51196": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "96",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51197": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "97",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51198": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "98",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "51199": {
+        "a": "5",
+        "b": "1",
+        "c": "1",
+        "d": "99",
+        "Uraian": "Penerimaan Lain Kepala Desa yang Sah"
+    },
+    "512": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": 0,
+        "Uraian": "Penghasilan Tetap dan Tunjangan Perangkat Desa"
+    },
+    "51201": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "01",
+        "Uraian": "Penghasilan Tetap Perangkat Desa"
+    },
+    "51202": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "02",
+        "Uraian": "Tunjangan Perangkat Desa"
+    },
+    "51290": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "90",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51291": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "91",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51292": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "92",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51293": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "93",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51294": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "94",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51295": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "95",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51296": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "96",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51297": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "97",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51298": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "98",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "51299": {
+        "a": "5",
+        "b": "1",
+        "c": "2",
+        "d": "99",
+        "Uraian": "Penerimaan Lain Perangkat Desa yang Sah"
+    },
+    "513": {
+        "a": "5",
+        "b": "1",
+        "c": "3",
+        "d": 0,
+        "Uraian": "Jaminan Sosial Kepala Desa dan Perangkat Desa"
+    },
+    "51301": {
+        "a": "5",
+        "b": "1",
+        "c": "3",
+        "d": "01",
+        "Uraian": "Jaminan Kesehatan Kepala Desa"
+    },
+    "51302": {
+        "a": "5",
+        "b": "1",
+        "c": "3",
+        "d": "02",
+        "Uraian": "Jaminan Kesehatan Perangkat Desa"
+    },
+    "51303": {
+        "a": "5",
+        "b": "1",
+        "c": "3",
+        "d": "03",
+        "Uraian": "Jaminan Ketenagakerjaan Kepala Desa"
+    },
+    "51304": {
+        "a": "5",
+        "b": "1",
+        "c": "3",
+        "d": "04",
+        "Uraian": "Jaminan Ketenagakerjaan Perangkat Desa"
+    },
+    "514": {
+        "a": "5",
+        "b": "1",
+        "c": "4",
+        "d": 0,
+        "Uraian": "Tunjangan BPD"
+    },
+    "51401": {
+        "a": "5",
+        "b": "1",
+        "c": "4",
+        "d": "01",
+        "Uraian": "Tunjangan Kedudukan BPD"
+    },
+    "51402": {
+        "a": "5",
+        "b": "1",
+        "c": "4",
+        "d": "02",
+        "Uraian": "Tunjangan Kinerja BPD"
+    },
+    "52": {
+        "a": "5",
+        "b": "2",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Belanja Barang dan Jasa"
+    },
+    "521": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": 0,
+        "Uraian": "Belanja Barang Perlengkapan"
+    },
+    "52101": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "01",
+        "Uraian": "Belanja Perlengkapan Alat Tulis Kantor dan Benda Pos"
+    },
+    "52102": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "02",
+        "Uraian": "Belanja Perlengkapan Alat-alat Listrik"
+    },
+    "52103": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "03",
+        "Uraian": "Belanja Perlengkapan Alat-alat Rumah Tangga/Peralatan dan Bahan Kebersihan"
+    },
+    "52104": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "04",
+        "Uraian": "Belanja Bahan Bakar Minyak/Gas/Isi Ulang Tabung Pemadam Kebakaran"
+    },
+    "52105": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "05",
+        "Uraian": "Belanja Perlengkapan Cetak/Penggandaan Belanja Barang Cetak dan Penggandaan"
+    },
+    "52106": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "06",
+        "Uraian": "Belanja Perlengkapan Barang Konsumsi (Makan/minum)"
+    },
+    "52107": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "07",
+        "Uraian": "Belanja Bahan/Material"
+    },
+    "52108": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "08",
+        "Uraian": "Belanja Bendera/Umbul-umbul/Spanduk"
+    },
+    "52109": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "09",
+        "Uraian": "Belanja Pakaian Dinas/Seragam/Atribut"
+    },
+    "52110": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "10",
+        "Uraian": "Belanja Obat-obatan"
+    },
+    "52111": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "11",
+        "Uraian": "Belanja Pakan Hewan/Ikan, Obat-obatan Hewan"
+    },
+    "52112": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "12",
+        "Uraian": "Belanja Pupuk/Obat-obatan Pertanian"
+    },
+    "52190": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "90",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52191": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "91",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52192": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "92",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52193": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "93",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52194": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "94",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52195": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "95",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52196": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "96",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52197": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "97",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52198": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "98",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "52199": {
+        "a": "5",
+        "b": "2",
+        "c": "1",
+        "d": "99",
+        "Uraian": "Belanja Barang Perlengkapan Lainnya"
+    },
+    "522": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": 0,
+        "Uraian": "Belanja Jasa Honorarium"
+    },
+    "52201": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "01",
+        "Uraian": "Belanja Jasa Honorarium Tim yang Melaksanakan Kegiatan"
+    },
+    "52202": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "02",
+        "Uraian": "Belanja Jasa Honorarium Pembantu Tugas Umum Desa/Operator"
+    },
+    "52203": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "03",
+        "Uraian": "Belanja Jasa Honorarium/Insentif Pelayanan Desa"
+    },
+    "52204": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "04",
+        "Uraian": "Belanja Jasa Honorarium Ahli/Profesi/Konsultan/Narasumber"
+    },
+    "52205": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "05",
+        "Uraian": "Belanja Jasa Honorarium Petugas"
+    },
+    "52290": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "90",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52291": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "91",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52292": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "92",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52293": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "93",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52294": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "94",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52295": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "95",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52296": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "96",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52297": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "97",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52298": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "98",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "52299": {
+        "a": "5",
+        "b": "2",
+        "c": "2",
+        "d": "99",
+        "Uraian": "Belanja Jasa Honorarium Lainnya"
+    },
+    "523": {
+        "a": "5",
+        "b": "2",
+        "c": "3",
+        "d": 0,
+        "Uraian": "Belanja Perjalanan Dinas"
+    },
+    "52301": {
+        "a": "5",
+        "b": "2",
+        "c": "3",
+        "d": "01",
+        "Uraian": "Belanja Perjalanan Dinas Dalam Kabupaten/Kota"
+    },
+    "52302": {
+        "a": "5",
+        "b": "2",
+        "c": "3",
+        "d": "02",
+        "Uraian": "Belanja Perjalanan Dinas Luar Kabupaten/Kota"
+    },
+    "52303": {
+        "a": "5",
+        "b": "2",
+        "c": "3",
+        "d": "03",
+        "Uraian": "Belanja Kursus/Pelatihan"
+    },
+    "524": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": 0,
+        "Uraian": "Belanja Jasa Sewa"
+    },
+    "52401": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "01",
+        "Uraian": "Belanja Jasa Sewa Bangunan/Gedung/Ruang"
+    },
+    "52402": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "02",
+        "Uraian": "Belanja Jasa Sewa Peralatan/Perlengkapan"
+    },
+    "52403": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "03",
+        "Uraian": "Belanja Jasa Sewa Sarana Mobilitas"
+    },
+    "52490": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "90",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52491": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "91",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52492": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "92",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52493": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "93",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52494": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "94",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52495": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "95",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52496": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "96",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52497": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "97",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52498": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "98",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "52499": {
+        "a": "5",
+        "b": "2",
+        "c": "4",
+        "d": "99",
+        "Uraian": "Belanja Jasa Sewa Lainnya"
+    },
+    "525": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": 0,
+        "Uraian": "Belanja Operasional Perkantoran"
+    },
+    "52501": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "01",
+        "Uraian": "Belanja Jasa Langganan Listrik"
+    },
+    "52502": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "02",
+        "Uraian": "Belanja Jasa Langganan Air Bersih"
+    },
+    "52503": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "03",
+        "Uraian": "Belanja Jasa Langganan Majalah/Surat Kabar"
+    },
+    "52504": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "04",
+        "Uraian": "Belanja Jasa Langganan Telepon"
+    },
+    "52505": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "05",
+        "Uraian": "Belanja Jasa Langganan Internet"
+    },
+    "52506": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "06",
+        "Uraian": "Belanja Jasa Kurir/Pos/Giro"
+    },
+    "52507": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "07",
+        "Uraian": "Belanja Jasa Perpanjangan Ijin/Pajak"
+    },
+    "52590": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "90",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52591": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "91",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52592": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "92",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52593": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "93",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52594": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "94",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52595": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "95",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52596": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "96",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52597": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "97",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52598": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "98",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "52599": {
+        "a": "5",
+        "b": "2",
+        "c": "5",
+        "d": "99",
+        "Uraian": "Belanja Operasional Perkantoran Lainnya"
+    },
+    "526": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": 0,
+        "Uraian": "Belanja Pemeliharaan"
+    },
+    "52601": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "01",
+        "Uraian": "Belanja Pemeliharaan Mesin dan Peralatan Berat"
+    },
+    "52602": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "02",
+        "Uraian": "Belanja Pemeliharaan Kendaraan Bermotor"
+    },
+    "52603": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "03",
+        "Uraian": "Belanja Pemeliharaan Peralatan"
+    },
+    "52604": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "04",
+        "Uraian": "Belanja Pemeliharaan Bangunan"
+    },
+    "52605": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "05",
+        "Uraian": "Belanja Pemeliharaan Jalan"
+    },
+    "52606": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "06",
+        "Uraian": "Belanja Pemeliharaan Jembatan"
+    },
+    "52607": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "07",
+        "Uraian": "Belanja Pemeliharaan Irigasi/Saluran Sungai/Embung/Air Bersih, Jaringan Air Limbah, Persampahan, dll"
+    },
+    "52608": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "08",
+        "Uraian": "Belanja Pemeliharaan Jaringan dan Instalasi (Listrik, Telepon, Internet, Komunikasi, dll)"
+    },
+    "52690": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "90",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52691": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "91",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52692": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "92",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52693": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "93",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52694": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "94",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52695": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "95",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52696": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "96",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52697": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "97",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52698": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "98",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "52699": {
+        "a": "5",
+        "b": "2",
+        "c": "6",
+        "d": "99",
+        "Uraian": "Belanja Pemeliharaan Lainnya"
+    },
+    "527": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": 0,
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat"
+    },
+    "52701": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "01",
+        "Uraian": "Belanja Bahan Perlengkapan yang Diserahkan ke masyarakat"
+    },
+    "52702": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "02",
+        "Uraian": "Belanja Bantuan Mesin/Kendaraaan bermotor/Peralatan yang diserahkan ke masyarakat"
+    },
+    "52703": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "03",
+        "Uraian": "Belanja Bantuan Bangunan yang diserahkan ke masyarakat"
+    },
+    "52704": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "04",
+        "Uraian": "Belanja Beasiswa Berprestasi/Masyarakat Miskin"
+    },
+    "52705": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "05",
+        "Uraian": "Belanja Bantuan Bibit Tanaman/Hewan/Ikan"
+    },
+    "52790": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "90",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52791": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "91",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52792": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "92",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52793": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "93",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52794": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "94",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52795": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "95",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52796": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "96",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52797": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "97",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52798": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "98",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "52799": {
+        "a": "5",
+        "b": "2",
+        "c": "7",
+        "d": "99",
+        "Uraian": "Belanja Barang dan Jasa yang Diserahkan kepada Masyarakat Lainnya"
+    },
+    "53": {
+        "a": "5",
+        "b": "3",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Belanja Modal"
+    },
+    "531": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": 0,
+        "Uraian": "Belanja Modal Pengadaan Tanah"
+    },
+    "53101": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "01",
+        "Uraian": "Belanja Modal Pembebasan/Pembelian Tanah"
+    },
+    "53102": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "02",
+        "Uraian": "Belanja Modal Pembayaran Honorarium Tim Tanah"
+    },
+    "53103": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "03",
+        "Uraian": "Belanja Modal Pengukuran dan Pembuatan Sertifikat Tanah"
+    },
+    "53104": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "04",
+        "Uraian": "Belanja Modal Pengurukan dan Pematangan Tanah"
+    },
+    "53105": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "05",
+        "Uraian": "Belanja Modal Perjalanan Pengadaan Tanah"
+    },
+    "53190": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "90",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53191": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "91",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53192": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "92",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53193": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "93",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53194": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "94",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53195": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "95",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53196": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "96",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53197": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "97",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53198": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "98",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "53199": {
+        "a": "5",
+        "b": "3",
+        "c": "1",
+        "d": "99",
+        "Uraian": "Belanja Modal Pengadaan Tanah Lainnya"
+    },
+    "532": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": 0,
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat"
+    },
+    "53201": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "01",
+        "Uraian": "Belanja Modal Honor Tim yang Melaksanakan Kegiatan"
+    },
+    "53202": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "02",
+        "Uraian": "Belanja Modal Peralatan Elektronik dan Alat Studio"
+    },
+    "53203": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "03",
+        "Uraian": "Belanja Modal Peralatan Komputer"
+    },
+    "53204": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "04",
+        "Uraian": "Belanja Modal Peralatan Mebeulair dan Aksesori Ruangan"
+    },
+    "53205": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "05",
+        "Uraian": "Belanja Modal Peralatan Dapur"
+    },
+    "53206": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "06",
+        "Uraian": "Belanja Modal Peralatan Alat Ukur"
+    },
+    "53207": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "07",
+        "Uraian": "Belanja Modal Peralatan Rambu-rambu/Patok Tanah"
+    },
+    "53208": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "08",
+        "Uraian": "Belanja Modal Peralatan khusus Kesehatan"
+    },
+    "53209": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "09",
+        "Uraian": "Belanja Modal Peralatan khusus Pertanian/Perikanan/Peternakan"
+    },
+    "53210": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "10",
+        "Uraian": "Belanja Modal Mesin"
+    },
+    "53211": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "11",
+        "Uraian": "Belanja Modal Pengadaan Alat-Alat Berat"
+    },
+    "53290": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "90",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53291": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "91",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53292": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "92",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53293": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "93",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53294": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "94",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53295": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "95",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53296": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "96",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53297": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "97",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53298": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "98",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "53299": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "99",
+        "Uraian": "Belanja Modal Peralatan, Mesin, dan Alat Berat Lainnya"
+    },
+    "533": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": 0,
+        "Uraian": "Belanja Modal Kendaraan"
+    },
+    "53301": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "01",
+        "Uraian": "Belanja Modal Honor Tim yang Melaksanakan Kegiatan"
+    },
+    "53302": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "02",
+        "Uraian": "Belanja Modal Kendaraan Darat Bermotor"
+    },
+    "53303": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "03",
+        "Uraian": "Belanja Modal Angkutan Darat Tidak Bermotor"
+    },
+    "53304": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "04",
+        "Uraian": "Belanja Modal Kendaraan Air Bermotor"
+    },
+    "53305": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "05",
+        "Uraian": "Belanja Modal Angkutan Air Tidak Bermotor"
+    },
+    "53390": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "90",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53391": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "91",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53392": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "92",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53393": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "93",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53394": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "94",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53395": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "95",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53396": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "96",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53397": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "97",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53398": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "98",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "53399": {
+        "a": "5",
+        "b": "3",
+        "c": "3",
+        "d": "99",
+        "Uraian": "Belanja Modal Kendaraan Lainnya"
+    },
+    "534": {
+        "a": "5",
+        "b": "3",
+        "c": "4",
+        "d": 0,
+        "Uraian": "Belanja Modal Gedung, Bangunan dan Taman"
+    },
+    "53401": {
+        "a": "5",
+        "b": "3",
+        "c": "4",
+        "d": "01",
+        "Uraian": "Belanja Modal Honor Tim yang Melaksanakan Kegiatan"
+    },
+    "53402": {
+        "a": "5",
+        "b": "3",
+        "c": "4",
+        "d": "02",
+        "Uraian": "Belanja Modal Upah Tenaga Kerja"
+    },
+    "53403": {
+        "a": "5",
+        "b": "3",
+        "c": "4",
+        "d": "03",
+        "Uraian": "Belanja Modal Bahan Baku"
+    },
+    "53404": {
+        "a": "5",
+        "b": "3",
+        "c": "4",
+        "d": "04",
+        "Uraian": "Belanja Modal Sewa Peralatan"
+    },
+    "535": {
+        "a": "5",
+        "b": "3",
+        "c": "5",
+        "d": 0,
+        "Uraian": "Belanja Modal Jalan/Prasarana Jalan"
+    },
+    "53501": {
+        "a": "5",
+        "b": "3",
+        "c": "5",
+        "d": "01",
+        "Uraian": "Belanja Modal Honor Tim yang Melaksanakan Kegiatan"
+    },
+    "53502": {
+        "a": "5",
+        "b": "3",
+        "c": "5",
+        "d": "02",
+        "Uraian": "Belanja Modal Upah Tenaga Kerja"
+    },
+    "53503": {
+        "a": "5",
+        "b": "3",
+        "c": "5",
+        "d": "03",
+        "Uraian": "Belanja Modal Bahan Baku"
+    },
+    "53504": {
+        "a": "5",
+        "b": "3",
+        "c": "5",
+        "d": "04",
+        "Uraian": "Belanja Modal Sewa Peralatan"
+    },
+    "536": {
+        "a": "5",
+        "b": "3",
+        "c": "6",
+        "d": 0,
+        "Uraian": "Belanja Modal Jembatan"
+    },
+    "53601": {
+        "a": "5",
+        "b": "3",
+        "c": "6",
+        "d": "01",
+        "Uraian": "Belanja Modal Honor Tim yang Melaksanakan Kegiatan"
+    },
+    "53602": {
+        "a": "5",
+        "b": "3",
+        "c": "6",
+        "d": "02",
+        "Uraian": "Belanja Modal Upah Tenaga Kerja"
+    },
+    "53603": {
+        "a": "5",
+        "b": "3",
+        "c": "6",
+        "d": "03",
+        "Uraian": "Belanja Modal Bahan Baku"
+    },
+    "53604": {
+        "a": "5",
+        "b": "3",
+        "c": "6",
+        "d": "04",
+        "Uraian": "Belanja Modal Sewa Peralatan"
+    },
+    "537": {
+        "a": "5",
+        "b": "3",
+        "c": "7",
+        "d": 0,
+        "Uraian": "Belanja Modal Irigasi/Embung/Air Sungai/Drainase/Air Limbah/Persampahan"
+    },
+    "53701": {
+        "a": "5",
+        "b": "3",
+        "c": "7",
+        "d": "01",
+        "Uraian": "Belanja Modal Honor Tim yang Melaksanakan Kegiatan"
+    },
+    "53702": {
+        "a": "5",
+        "b": "3",
+        "c": "7",
+        "d": "02",
+        "Uraian": "Belanja Modal Upah Tenaga Kerja"
+    },
+    "53703": {
+        "a": "5",
+        "b": "3",
+        "c": "7",
+        "d": "03",
+        "Uraian": "Belanja Modal Bahan Baku"
+    },
+    "53704": {
+        "a": "5",
+        "b": "3",
+        "c": "7",
+        "d": "04",
+        "Uraian": "Belanja Modal Sewa Peralatan"
+    },
+    "538": {
+        "a": "5",
+        "b": "3",
+        "c": "8",
+        "d": 0,
+        "Uraian": "Belanja Modal Jaringan/Instalasi"
+    },
+    "53801": {
+        "a": "5",
+        "b": "3",
+        "c": "8",
+        "d": "01",
+        "Uraian": "Belanja Modal Honor Tim yang Melaksanakan Kegiatan"
+    },
+    "53802": {
+        "a": "5",
+        "b": "3",
+        "c": "8",
+        "d": "02",
+        "Uraian": "Belanja Modal Upah Tenaga Kerja"
+    },
+    "53803": {
+        "a": "5",
+        "b": "3",
+        "c": "8",
+        "d": "03",
+        "Uraian": "Belanja Modal Bahan Baku"
+    },
+    "53804": {
+        "a": "5",
+        "b": "3",
+        "c": "8",
+        "d": "04",
+        "Uraian": "Belanja Modal Sewa Peralatan"
+    },
+    "539": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": 0,
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53901": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "01",
+        "Uraian": "Belanja Modal khusus Pendidikan dan Perpustakaan"
+    },
+    "53902": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "02",
+        "Uraian": "Belanja Modal khusus Olahraga"
+    },
+    "53903": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "03",
+        "Uraian": "Belanja Modal khusus Kesenian/Kebudayaan/keagamaan"
+    },
+    "53904": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "04",
+        "Uraian": "Belanja Modal Tumbuhan/Tanaman"
+    },
+    "53905": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "05",
+        "Uraian": "Belanja Modal Hewan"
+    },
+    "53990": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "90",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53991": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "91",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53992": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "92",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53993": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "93",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53994": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "94",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53995": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "95",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53996": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "96",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53997": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "97",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53998": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "98",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "53999": {
+        "a": "5",
+        "b": "3",
+        "c": "9",
+        "d": "99",
+        "Uraian": "Belanja Modal Lainnya"
+    },
+    "54": {
+        "a": "5",
+        "b": "4",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Belanja Tak Terduga"
+    },
+    "541": {
+        "a": "5",
+        "b": "4",
+        "c": "1",
+        "d": 0,
+        "Uraian": "Belanja Tak Terduga"
+    },
+    "54101": {
+        "a": "5",
+        "b": "4",
+        "c": "1",
+        "d": "01",
+        "Uraian": "Belanja Tak Terduga"
+    },
+    "6": {
+        "a": "6",
+        "b": 0,
+        "c": 0,
+        "d": 0,
+        "Uraian": "PEMBIAYAAN"
+    },
+    "61": {
+        "a": "6",
+        "b": "1",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Penerimaan Pembiayaan"
+    },
+    "611": {
+        "a": "6",
+        "b": "1",
+        "c": "1",
+        "d": 0,
+        "Uraian": "SILPA Tahun Sebelumya"
+    },
+    "61101": {
+        "a": "6",
+        "b": "1",
+        "c": "1",
+        "d": "01",
+        "Uraian": "SILPA Tahun Sebelumnya"
+    },
+    "612": {
+        "a": "6",
+        "b": "1",
+        "c": "2",
+        "d": 0,
+        "Uraian": "Pencairan Dana Cadangan"
+    },
+    "61201": {
+        "a": "6",
+        "b": "1",
+        "c": "2",
+        "d": "01",
+        "Uraian": "Pencairan Dana Cadangan"
+    },
+    "613": {
+        "a": "6",
+        "b": "1",
+        "c": "3",
+        "d": 0,
+        "Uraian": "Hasil Penjualan Kekayaan Desa yang Dipisahkan"
+    },
+    "61301": {
+        "a": "6",
+        "b": "1",
+        "c": "3",
+        "d": "01",
+        "Uraian": "Hasil Penjualan Kekayaan Desa yang Dipisahkan"
+    },
+    "619": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": 0,
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61990": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "90",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61991": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "91",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61992": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "92",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61993": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "93",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61994": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "94",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61995": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "95",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61996": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "96",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61997": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "97",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61998": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "98",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "61999": {
+        "a": "6",
+        "b": "1",
+        "c": "9",
+        "d": "99",
+        "Uraian": "Penerimaan Pembiayaan Lainnya"
+    },
+    "62": {
+        "a": "6",
+        "b": "2",
+        "c": 0,
+        "d": 0,
+        "Uraian": "Pengeluaran Pembiayaan"
+    },
+    "621": {
+        "a": "6",
+        "b": "2",
+        "c": "1",
+        "d": 0,
+        "Uraian": "Pembentukan Dana Cadangan"
+    },
+    "62101": {
+        "a": "6",
+        "b": "2",
+        "c": "1",
+        "d": "01",
+        "Uraian": "Pembentukan Dana Cadangan"
+    },
+    "622": {
+        "a": "6",
+        "b": "2",
+        "c": "2",
+        "d": 0,
+        "Uraian": "Penyertaan Modal Desa"
+    },
+    "62201": {
+        "a": "6",
+        "b": "2",
+        "c": "2",
+        "d": "01",
+        "Uraian": "Penyertaan Modal Desa"
+    },
+    "629": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": 0,
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62990": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "90",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62991": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "91",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62992": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "92",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62993": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "93",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62994": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "94",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62995": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "95",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62996": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "96",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62997": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "97",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62998": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "98",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    },
+    "62999": {
+        "a": "6",
+        "b": "2",
+        "c": "9",
+        "d": "99",
+        "Uraian": "Pengeluaran Pembiayaan Lainnya"
+    }
+}
