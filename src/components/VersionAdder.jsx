@@ -9,14 +9,15 @@ export default function VersionAdder({ draft, onAddVersion }) {
   const { userData } = useAuth();
 
   function addVersion() {
-    const latest = draft.versions[draft.versions.length - 1];
+    const latest = draft.versions[draft.versions.length - 1] || { items: [], revenues: [] };
     const newV = {
       vid: uid(),
       summary: summary || "Perubahan",
       createdAt: now(),
       createdBy: userData?.displayName || userData?.email || "Unknown User",
-      // shallow copy of items (in real app user edits them)
-      items: latest.items.map(it => ({ ...it }))
+      // shallow copy of entries so each version keeps its own snapshot
+      items: (latest.items || []).map(it => ({ ...it })),
+      revenues: (latest.revenues || []).map(rev => ({ ...rev }))
     };
     onAddVersion(draft.id, newV);
     setSummary("");

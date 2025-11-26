@@ -42,7 +42,9 @@ export default function DraftDetail() {
   // Get the latest version or selected version
   const currentVersion = selectedVersion || draft.versions[draft.versions.length - 1];
   const currentItems = currentVersion?.items || [];
+  const currentRevenues = currentVersion?.revenues || [];
   const currentTotal = currentItems.reduce((sum, item) => sum + (Number(item.qty) * Number(item.unitPrice)), 0);
+  const currentRevenueTotal = currentRevenues.reduce((sum, item) => sum + Number(item.revenueAmount || 0), 0);
 
   // Status badge styling
   const getStatusBadge = (status) => {
@@ -55,22 +57,26 @@ export default function DraftDetail() {
     return styles[status] || "bg-slate-100 text-slate-800";
   };
 
-  function compare() {
-    if (!leftV || !rightV || !leftV.items || !rightV.items) return null;
-    // naive compare: list items differences by name and subtotal
-    const mapLeft = new Map(leftV.items.map(it => [it.code || it.name, it]));
-    const mapRight = new Map(rightV.items.map(it => [it.code || it.name, it]));
+  function buildComparison(leftList = [], rightList = []) {
+    const mapLeft = new Map(leftList.map(it => [it.code || it.name, it]));
+    const mapRight = new Map(rightList.map(it => [it.code || it.name, it]));
     const keys = new Set([...mapLeft.keys(), ...mapRight.keys()]);
-    const rows = [];
-    keys.forEach(k => {
-      const a = mapLeft.get(k);
-      const b = mapRight.get(k);
-      rows.push({ key: k, left: a || null, right: b || null });
-    });
-    return rows;
+    return Array.from(keys).map(key => ({
+      key,
+      left: mapLeft.get(key) || null,
+      right: mapRight.get(key) || null
+    }));
   }
 
-  const rows = useMemo(() => compare(), [leftV, rightV]);
+  const expenseRows = useMemo(() => {
+    if (!leftV || !rightV) return null;
+    return buildComparison(leftV.items || [], rightV.items || []);
+  }, [leftV, rightV]);
+
+  const revenueRows = useMemo(() => {
+    if (!leftV || !rightV) return null;
+    return buildComparison(leftV.revenues || [], rightV.revenues || []);
+  }, [leftV, rightV]);
 
   async function handleApprove() {
     if (window.confirm("Are you sure you want to approve this draft?")) {
@@ -171,46 +177,85 @@ export default function DraftDetail() {
               <span className="font-medium"> Date:</span> {new Date(currentVersion.createdAt).toLocaleString()}
             </div>
 
-            {currentItems.length > 0 ? (
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="text-left border-b bg-slate-50">
-                      <th className="p-3 font-medium">Kode</th>
-                      <th className="p-3 font-medium">Nama Item</th>
-                      <th className="p-3 font-medium text-right">Qty</th>
-                      <th className="p-3 font-medium">Unit</th>
-                      <th className="p-3 font-medium text-right">Unit Price</th>
-                      <th className="p-3 font-medium text-right">Subtotal</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {currentItems.map((item, idx) => (
-                      <tr key={idx} className="border-b hover:bg-slate-50">
-                        <td className="p-3">{item.code || "-"}</td>
-                        <td className="p-3">{item.name}</td>
-                        <td className="p-3 text-right">{Number(item.qty).toLocaleString()}</td>
-                        <td className="p-3">{item.unit || "-"}</td>
-                        <td className="p-3 text-right">Rp {Number(item.unitPrice).toLocaleString()}</td>
-                        <td className="p-3 text-right font-medium">
-                          Rp {(Number(item.qty) * Number(item.unitPrice)).toLocaleString()}
-                        </td>
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Budget Items</h3>
+              {currentItems.length > 0 ? (
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="text-left border-b bg-slate-50">
+                        <th className="p-3 font-medium">Kode</th>
+                        <th className="p-3 font-medium">Nama Item</th>
+                        <th className="p-3 font-medium text-right">Qty</th>
+                        <th className="p-3 font-medium">Unit</th>
+                        <th className="p-3 font-medium text-right">Unit Price</th>
+                        <th className="p-3 font-medium text-right">Subtotal</th>
                       </tr>
-                    ))}
-                  </tbody>
-                  <tfoot>
-                    <tr className="bg-slate-50 font-semibold">
-                      <td colSpan="5" className="p-3 text-right">Total:</td>
-                      <td className="p-3 text-right">Rp {currentTotal.toLocaleString()}</td>
-                    </tr>
-                  </tfoot>
-                </table>
-              </div>
-            ) : (
-              <div className="text-center py-8 text-slate-500">
-                No items in this version.
-              </div>
-            )}
+                    </thead>
+                    <tbody>
+                      {currentItems.map((item, idx) => (
+                        <tr key={idx} className="border-b hover:bg-slate-50">
+                          <td className="p-3">{item.code || "-"}</td>
+                          <td className="p-3">{item.name}</td>
+                          <td className="p-3 text-right">{Number(item.qty).toLocaleString()}</td>
+                          <td className="p-3">{item.unit || "-"}</td>
+                          <td className="p-3 text-right">Rp {Number(item.unitPrice).toLocaleString()}</td>
+                          <td className="p-3 text-right font-medium">
+                            Rp {(Number(item.qty) * Number(item.unitPrice)).toLocaleString()}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                    <tfoot>
+                      <tr className="bg-slate-50 font-semibold">
+                        <td colSpan="5" className="p-3 text-right">Total:</td>
+                        <td className="p-3 text-right">Rp {currentTotal.toLocaleString()}</td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              ) : (
+                <div className="text-center py-8 text-slate-500">
+                  No budget items in this version.
+                </div>
+              )}
+            </div>
+
+            <div className="mt-8">
+              <h3 className="text-lg font-semibold mb-2">Revenue Items</h3>
+              {currentRevenues.length > 0 ? (
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="text-left border-b bg-slate-50">
+                        <th className="p-3 font-medium">Kode</th>
+                        <th className="p-3 font-medium">Nama Pendapatan</th>
+                        <th className="p-3 font-medium text-right">Jumlah</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {currentRevenues.map((rev, idx) => (
+                        <tr key={idx} className="border-b hover:bg-slate-50">
+                          <td className="p-3">{rev.code || "-"}</td>
+                          <td className="p-3">{rev.name}</td>
+                          <td className="p-3 text-right">Rp {Number(rev.revenueAmount || 0).toLocaleString()}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                    <tfoot>
+                      <tr className="bg-slate-50 font-semibold">
+                        <td colSpan="2" className="p-3 text-right">Total:</td>
+                        <td className="p-3 text-right">Rp {currentRevenueTotal.toLocaleString()}</td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              ) : (
+                <div className="text-center py-8 text-slate-500">
+                  No revenue items in this version.
+                </div>
+              )}
+            </div>
           </div>
         )}
       </div>
@@ -224,7 +269,10 @@ export default function DraftDetail() {
           )}
         </div>
         <div className="space-y-2">
-          {draft.versions.map((version, idx) => (
+          {draft.versions.map((version, idx) => {
+            const versionItemTotal = (version.items || []).reduce((sum, item) => sum + (Number(item.qty) * Number(item.unitPrice)), 0);
+            const versionRevenueTotal = (version.revenues || []).reduce((sum, item) => sum + Number(item.revenueAmount || 0), 0);
+            return (
             <div
               key={version.vid}
               className={`p-3 border rounded ${version.vid === currentVersion?.vid ? 'bg-indigo-50 border-indigo-200' : ''}`}
@@ -241,7 +289,10 @@ export default function DraftDetail() {
                     Created by {version.createdBy} • {new Date(version.createdAt).toLocaleString()}
                   </div>
                   <div className="text-sm text-slate-600 mt-1">
-                    {version.items?.length || 0} items • Total: Rp {version.items?.reduce((sum, item) => sum + (Number(item.qty) * Number(item.unitPrice)), 0).toLocaleString() || 0}
+                    {version.items?.length || 0} budget items • Total: Rp {versionItemTotal.toLocaleString()}
+                  </div>
+                  <div className="text-sm text-slate-600">
+                    {version.revenues?.length || 0} revenue entries • Total: Rp {versionRevenueTotal.toLocaleString()}
                   </div>
                 </div>
                 <button
@@ -252,7 +303,8 @@ export default function DraftDetail() {
                 </button>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
@@ -292,42 +344,89 @@ export default function DraftDetail() {
           </div>
         </div>
 
-        {leftV && rightV && rows && (
-          <div className="mt-4">
-            <h3 className="font-medium mb-2">Comparison Results</h3>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm border">
-                <thead>
-                  <tr className="bg-slate-50 text-left">
-                    <th className="p-2 border">Item</th>
-                    <th className="p-2 border text-right">Left Subtotal</th>
-                    <th className="p-2 border text-right">Right Subtotal</th>
-                    <th className="p-2 border text-right">Difference</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {rows.map((r, idx) => {
-                    const leftTotal = r.left ? (Number(r.left.qty) * Number(r.left.unitPrice)) : 0;
-                    const rightTotal = r.right ? (Number(r.right.qty) * Number(r.right.unitPrice)) : 0;
-                    const diff = rightTotal - leftTotal;
-                    return (
-                      <tr key={idx} className="border-b">
-                        <td className="p-2 border">{r.key}</td>
-                        <td className="p-2 border text-right">
-                          {r.left ? `Rp ${leftTotal.toLocaleString()}` : "-"}
-                        </td>
-                        <td className="p-2 border text-right">
-                          {r.right ? `Rp ${rightTotal.toLocaleString()}` : "-"}
-                        </td>
-                        <td className={`p-2 border text-right font-medium ${diff > 0 ? 'text-green-600' : diff < 0 ? 'text-red-600' : ''}`}>
-                          {r.left && r.right ? `Rp ${diff.toLocaleString()}` : "-"}
-                        </td>
+        {leftV && rightV && (
+          <div className="mt-4 space-y-6">
+            {expenseRows?.length ? (
+              <div>
+                <h3 className="font-medium mb-2">Budget Items</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border">
+                    <thead>
+                      <tr className="bg-slate-50 text-left">
+                        <th className="p-2 border">Item</th>
+                        <th className="p-2 border text-right">Left Subtotal</th>
+                        <th className="p-2 border text-right">Right Subtotal</th>
+                        <th className="p-2 border text-right">Difference</th>
                       </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
+                    </thead>
+                    <tbody>
+                      {expenseRows.map((r, idx) => {
+                        const leftTotal = r.left ? (Number(r.left.qty) * Number(r.left.unitPrice)) : 0;
+                        const rightTotal = r.right ? (Number(r.right.qty) * Number(r.right.unitPrice)) : 0;
+                        const diff = rightTotal - leftTotal;
+                        return (
+                          <tr key={idx} className="border-b">
+                            <td className="p-2 border">{r.key}</td>
+                            <td className="p-2 border text-right">
+                              {r.left ? `Rp ${leftTotal.toLocaleString()}` : "-"}
+                            </td>
+                            <td className="p-2 border text-right">
+                              {r.right ? `Rp ${rightTotal.toLocaleString()}` : "-"}
+                            </td>
+                            <td className={`p-2 border text-right font-medium ${diff > 0 ? 'text-green-600' : diff < 0 ? 'text-red-600' : ''}`}>
+                              {r.left && r.right ? `Rp ${diff.toLocaleString()}` : "-"}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ) : null}
+
+            {revenueRows?.length ? (
+              <div>
+                <h3 className="font-medium mb-2">Revenue Items</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border">
+                    <thead>
+                      <tr className="bg-slate-50 text-left">
+                        <th className="p-2 border">Item</th>
+                        <th className="p-2 border text-right">Left Total</th>
+                        <th className="p-2 border text-right">Right Total</th>
+                        <th className="p-2 border text-right">Difference</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {revenueRows.map((r, idx) => {
+                        const leftTotal = r.left ? Number(r.left.revenueAmount || 0) : 0;
+                        const rightTotal = r.right ? Number(r.right.revenueAmount || 0) : 0;
+                        const diff = rightTotal - leftTotal;
+                        return (
+                          <tr key={idx} className="border-b">
+                            <td className="p-2 border">{r.key}</td>
+                            <td className="p-2 border text-right">
+                              {r.left ? `Rp ${leftTotal.toLocaleString()}` : "-"}
+                            </td>
+                            <td className="p-2 border text-right">
+                              {r.right ? `Rp ${rightTotal.toLocaleString()}` : "-"}
+                            </td>
+                            <td className={`p-2 border text-right font-medium ${diff > 0 ? 'text-green-600' : diff < 0 ? 'text-red-600' : ''}`}>
+                              {r.left && r.right ? `Rp ${diff.toLocaleString()}` : "-"}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ) : null}
+
+            {!expenseRows?.length && !revenueRows?.length && (
+              <div className="text-slate-500">No comparable data between the selected versions.</div>
+            )}
           </div>
         )}
       </div>

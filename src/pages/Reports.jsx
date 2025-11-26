@@ -19,10 +19,11 @@ export default function Reports() {
       const { id, title, createdAt, createdBy, status, updatedAt, versions} = mainRecord;
 
       versions.forEach(version => {
-        const { createdAt: versionCreatedAt, createdBy: versionCreatedBy, vid: versionId, summary: versionSummary, items } = version;
+        const { createdAt: versionCreatedAt, createdBy: versionCreatedBy, vid: versionId, summary: versionSummary, items = [], revenues = [] } = version;
 
         items.forEach(item => {
           const flatRow = {
+            'Entry Type': 'Budget',
             'Title': title,
             'Created At (Main)': createdAt,
             'Created By (Main)': createdBy,
@@ -37,9 +38,33 @@ export default function Reports() {
             'Item Name': item.name,
             'Quantity': item.qty,
             'Unit': item.unit,
-            'Unit Price': item.unitPrice
+            'Unit Price': item.unitPrice,
+            'Amount': Number(item.qty) * Number(item.unitPrice || 0)
           };
           result.push(flatRow);
+        });
+
+        revenues.forEach(revenue => {
+          const revenueRow = {
+            'Entry Type': 'Revenue',
+            'Title': title,
+            'Created At (Main)': createdAt,
+            'Created By (Main)': createdBy,
+            'Status': status,
+            'Updated At': updatedAt,
+            'Version Created At': versionCreatedAt,
+            'Version Created By': versionCreatedBy,
+            'Version ID': versionId,
+            'Version Summary': versionSummary,
+
+            'Item Code': revenue.code,
+            'Item Name': revenue.name,
+            'Quantity': null,
+            'Unit': null,
+            'Unit Price': null,
+            'Amount': Number(revenue.revenueAmount || 0)
+          };
+          result.push(revenueRow);
         });
       });
     });
