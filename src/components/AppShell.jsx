@@ -40,7 +40,7 @@ export default function AppShell({ children }) {
             )}
             <Link to="/revisions" className="px-3 py-2 rounded hover:bg-slate-100">Revisions</Link>
             <Link to="/reports" className="px-3 py-2 rounded hover:bg-slate-100">Reports</Link>
-            <Link to="http://10.10.10.237:8501" className="px-3 py-2 rounded hover:bg-slate-100">Budget Advisor</Link>
+            <Link to="http://127.0.0.1:8501/" className="px-3 py-2 rounded hover:bg-slate-100">Budget Advisor</Link>
           </nav>
 
           <button
